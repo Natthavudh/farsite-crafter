@@ -1,0 +1,2379 @@
+[
+    {
+        "36": {
+            "Requirements": {
+                "Credits": 350,
+                "Resources": {
+                    "38": 2,
+                    "56": 9,
+                    "58": 8,
+                    "97": 6
+                }
+            },
+            "Duration": 13500
+        },
+        "37": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "39": 4,
+                    "56": 14,
+                    "57": 12,
+                    "97": 9
+                }
+            },
+            "Duration": 36000
+        },
+        "38": {
+            "Requirements": {
+                "Credits": 1250,
+                "Resources": {
+                    "38": 15,
+                    "41": 4,
+                    "57": 15,
+                    "61": 8,
+                    "97": 13
+                }
+            },
+            "Duration": 46500
+        },
+        "39": {
+            "Requirements": {
+                "Credits": 350,
+                "Resources": {
+                    "48": 4,
+                    "56": 5,
+                    "58": 10,
+                    "96": 6
+                }
+            },
+            "Duration": 13500
+        },
+        "40": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "38": 8,
+                    "48": 12,
+                    "60": 5,
+                    "96": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "41": {
+            "Requirements": {
+                "Credits": 1250,
+                "Resources": {
+                    "41": 10,
+                    "48": 8,
+                    "50": 4,
+                    "63": 6,
+                    "96": 9
+                }
+            },
+            "Duration": 46500
+        },
+        "42": {
+            "Requirements": {
+                "Credits": 350,
+                "Resources": {
+                    "1": 1,
+                    "47": 5,
+                    "59": 8,
+                    "99": 4
+                }
+            },
+            "Duration": 13500
+        },
+        "43": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "4": 2,
+                    "47": 4,
+                    "59": 10,
+                    "99": 5
+                }
+            },
+            "Duration": 36000
+        },
+        "44": {
+            "Requirements": {
+                "Credits": 1250,
+                "Resources": {
+                    "3": 3,
+                    "4": 3,
+                    "49": 7,
+                    "59": 15,
+                    "99": 9
+                }
+            },
+            "Duration": 46500
+        },
+        "45": {
+            "Requirements": {
+                "Credits": 240,
+                "Resources": {
+                    "39": 5,
+                    "56": 5,
+                    "58": 10,
+                    "101": 6
+                }
+            },
+            "Duration": 10200
+        },
+        "46": {
+            "Requirements": {
+                "Credits": 650,
+                "Resources": {
+                    "15": 2,
+                    "39": 12,
+                    "58": 12,
+                    "101": 8
+                }
+            },
+            "Duration": 25500
+        },
+        "47": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "16": 5,
+                    "41": 5,
+                    "59": 12,
+                    "61": 6,
+                    "101": 9
+                }
+            },
+            "Duration": 39000
+        },
+        "48": {
+            "Requirements": {
+                "Credits": 240,
+                "Resources": {
+                    "38": 5,
+                    "56": 5,
+                    "60": 10,
+                    "99": 6
+                }
+            },
+            "Duration": 10200
+        },
+        "49": {
+            "Requirements": {
+                "Credits": 650,
+                "Resources": {
+                    "40": 2,
+                    "56": 8,
+                    "63": 6,
+                    "99": 5
+                }
+            },
+            "Duration": 25500
+        },
+        "50": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "40": 3,
+                    "47": 18,
+                    "60": 12,
+                    "63": 8,
+                    "99": 13
+                }
+            },
+            "Duration": 39000
+        },
+        "51": {
+            "Requirements": {
+                "Credits": 240,
+                "Resources": {
+                    "1": 1,
+                    "15": 1,
+                    "60": 12,
+                    "100": 4
+                }
+            },
+            "Duration": 10200
+        },
+        "52": {
+            "Requirements": {
+                "Credits": 650,
+                "Resources": {
+                    "4": 1,
+                    "16": 2,
+                    "61": 6,
+                    "100": 3
+                }
+            },
+            "Duration": 25500
+        },
+        "53": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "2": 5,
+                    "16": 3,
+                    "18": 1,
+                    "62": 7,
+                    "100": 5
+                }
+            },
+            "Duration": 39000
+        },
+        "54": {
+            "Requirements": {
+                "Credits": 2100,
+                "Resources": {
+                    "38": 30,
+                    "56": 50,
+                    "57": 42,
+                    "101": 38
+                }
+            },
+            "Duration": 69000
+        },
+        "55": {
+            "Requirements": {
+                "Credits": 5200,
+                "Resources": {
+                    "38": 55,
+                    "47": 65,
+                    "56": 140,
+                    "58": 25,
+                    "101": 89
+                }
+            },
+            "Duration": 168000
+        },
+        "56": {
+            "Requirements": {
+                "Credits": 14000,
+                "Resources": {
+                    "40": 72,
+                    "49": 55,
+                    "58": 120,
+                    "63": 45,
+                    "101": 91
+                }
+            },
+            "Duration": 420000
+        },
+        "57": {
+            "Requirements": {
+                "Credits": 2100,
+                "Resources": {
+                    "38": 28,
+                    "39": 25,
+                    "57": 60,
+                    "97": 35
+                }
+            },
+            "Duration": 69000
+        },
+        "58": {
+            "Requirements": {
+                "Credits": 5200,
+                "Resources": {
+                    "16": 6,
+                    "38": 20,
+                    "48": 45,
+                    "61": 55,
+                    "97": 39
+                }
+            },
+            "Duration": 168000
+        },
+        "59": {
+            "Requirements": {
+                "Credits": 14000,
+                "Resources": {
+                    "15": 65,
+                    "40": 35,
+                    "49": 20,
+                    "62": 65,
+                    "97": 58
+                }
+            },
+            "Duration": 420000
+        },
+        "60": {
+            "Requirements": {
+                "Credits": 2100,
+                "Resources": {
+                    "17": 12,
+                    "39": 25,
+                    "60": 32,
+                    "98": 22
+                }
+            },
+            "Duration": 69000
+        },
+        "61": {
+            "Requirements": {
+                "Credits": 5200,
+                "Resources": {
+                    "15": 14,
+                    "17": 8,
+                    "41": 16,
+                    "60": 125,
+                    "98": 51
+                }
+            },
+            "Duration": 168000
+        },
+        "62": {
+            "Requirements": {
+                "Credits": 14000,
+                "Resources": {
+                    "16": 26,
+                    "18": 22,
+                    "41": 85,
+                    "59": 134,
+                    "98": 83
+                }
+            },
+            "Duration": 420000
+        },
+        "63": {
+            "Requirements": {
+                "Credits": 1400,
+                "Resources": {
+                    "47": 24,
+                    "50": 12,
+                    "60": 70,
+                    "101": 33
+                }
+            },
+            "Duration": 48000
+        },
+        "64": {
+            "Requirements": {
+                "Credits": 6400,
+                "Resources": {
+                    "18": 22,
+                    "38": 30,
+                    "48": 22,
+                    "60": 130,
+                    "101": 64
+                }
+            },
+            "Duration": 204000
+        },
+        "65": {
+            "Requirements": {
+                "Credits": 7000,
+                "Resources": {
+                    "2": 25,
+                    "49": 50,
+                    "50": 80,
+                    "62": 85,
+                    "101": 75
+                }
+            },
+            "Duration": 252000
+        },
+        "66": {
+            "Requirements": {
+                "Credits": 1400,
+                "Resources": {
+                    "39": 25,
+                    "56": 65,
+                    "57": 40,
+                    "99": 41
+                }
+            },
+            "Duration": 48000
+        },
+        "67": {
+            "Requirements": {
+                "Credits": 6400,
+                "Resources": {
+                    "16": 8,
+                    "40": 32,
+                    "57": 120,
+                    "58": 65,
+                    "99": 70
+                }
+            },
+            "Duration": 204000
+        },
+        "68": {
+            "Requirements": {
+                "Credits": 7000,
+                "Resources": {
+                    "16": 35,
+                    "41": 50,
+                    "59": 110,
+                    "63": 90,
+                    "99": 89
+                }
+            },
+            "Duration": 252000
+        },
+        "69": {
+            "Requirements": {
+                "Credits": 1400,
+                "Resources": {
+                    "15": 8,
+                    "47": 16,
+                    "60": 75,
+                    "97": 31
+                }
+            },
+            "Duration": 48000
+        },
+        "70": {
+            "Requirements": {
+                "Credits": 6400,
+                "Resources": {
+                    "2": 12,
+                    "17": 8,
+                    "50": 20,
+                    "62": 45,
+                    "97": 27
+                }
+            },
+            "Duration": 204000
+        },
+        "71": {
+            "Requirements": {
+                "Credits": 7000,
+                "Resources": {
+                    "17": 46,
+                    "18": 42,
+                    "48": 90,
+                    "62": 65,
+                    "97": 76
+                }
+            },
+            "Duration": 252000
+        },
+        "81": {
+            "Requirements": {
+                "Credits": 450,
+                "Resources": {
+                    "15": 2,
+                    "47": 4,
+                    "59": 8,
+                    "97": 4
+                }
+            },
+            "Duration": 16500
+        },
+        "82": {
+            "Requirements": {
+                "Credits": 600,
+                "Resources": {
+                    "17": 3,
+                    "47": 12,
+                    "59": 8,
+                    "97": 7
+                }
+            },
+            "Duration": 24000
+        },
+        "83": {
+            "Requirements": {
+                "Credits": 900,
+                "Resources": {
+                    "2": 2,
+                    "17": 4,
+                    "49": 6,
+                    "62": 6,
+                    "97": 6
+                }
+            },
+            "Duration": 36000
+        },
+        "84": {
+            "Requirements": {
+                "Credits": 450,
+                "Resources": {
+                    "38": 4,
+                    "56": 9,
+                    "58": 9,
+                    "100": 7
+                }
+            },
+            "Duration": 16500
+        },
+        "85": {
+            "Requirements": {
+                "Credits": 600,
+                "Resources": {
+                    "39": 6,
+                    "56": 16,
+                    "58": 16,
+                    "100": 12
+                }
+            },
+            "Duration": 24000
+        },
+        "86": {
+            "Requirements": {
+                "Credits": 900,
+                "Resources": {
+                    "39": 10,
+                    "40": 8,
+                    "60": 8,
+                    "63": 6,
+                    "100": 10
+                }
+            },
+            "Duration": 36000
+        },
+        "87": {
+            "Requirements": {
+                "Credits": 450,
+                "Resources": {
+                    "39": 7,
+                    "47": 7,
+                    "57": 6,
+                    "98": 6
+                }
+            },
+            "Duration": 16500
+        },
+        "88": {
+            "Requirements": {
+                "Credits": 600,
+                "Resources": {
+                    "39": 12,
+                    "48": 12,
+                    "57": 8,
+                    "98": 10
+                }
+            },
+            "Duration": 24000
+        },
+        "89": {
+            "Requirements": {
+                "Credits": 900,
+                "Resources": {
+                    "41": 4,
+                    "49": 6,
+                    "50": 4,
+                    "62": 8,
+                    "98": 7
+                }
+            },
+            "Duration": 36000
+        },
+        "90": {
+            "Requirements": {
+                "Credits": 400,
+                "Resources": {
+                    "15": 2,
+                    "56": 12,
+                    "59": 6,
+                    "97": 6
+                }
+            },
+            "Duration": 15000
+        },
+        "91": {
+            "Requirements": {
+                "Credits": 1200,
+                "Resources": {
+                    "17": 3,
+                    "57": 8,
+                    "60": 8,
+                    "97": 6
+                }
+            },
+            "Duration": 42000
+        },
+        "92": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "3": 4,
+                    "18": 3,
+                    "58": 8,
+                    "63": 3,
+                    "97": 6
+                }
+            },
+            "Duration": 54000
+        },
+        "93": {
+            "Requirements": {
+                "Credits": 400,
+                "Resources": {
+                    "27": 250,
+                    "48": 12,
+                    "57": 8,
+                    "99": 6
+                }
+            },
+            "Duration": 15000
+        },
+        "94": {
+            "Requirements": {
+                "Credits": 1200,
+                "Resources": {
+                    "27": 350,
+                    "47": 14,
+                    "57": 12,
+                    "99": 8
+                }
+            },
+            "Duration": 42000
+        },
+        "95": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "2": 3,
+                    "27": 450,
+                    "50": 8,
+                    "60": 12,
+                    "99": 12
+                }
+            },
+            "Duration": 54000
+        },
+        "96": {
+            "Requirements": {
+                "Credits": 400,
+                "Resources": {
+                    "38": 4,
+                    "60": 7,
+                    "61": 4,
+                    "101": 5
+                }
+            },
+            "Duration": 15000
+        },
+        "97": {
+            "Requirements": {
+                "Credits": 1200,
+                "Resources": {
+                    "39": 6,
+                    "60": 5,
+                    "62": 6,
+                    "101": 5
+                }
+            },
+            "Duration": 42000
+        },
+        "98": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "38": 12,
+                    "41": 4,
+                    "61": 6,
+                    "62": 4,
+                    "101": 8
+                }
+            },
+            "Duration": 54000
+        },
+        "99": {
+            "Requirements": {
+                "Credits": 1700,
+                "Resources": {
+                    "1": 18,
+                    "48": 25,
+                    "58": 32,
+                    "100": 23
+                }
+            },
+            "Duration": 57000
+        },
+        "100": {
+            "Requirements": {
+                "Credits": 5600,
+                "Resources": {
+                    "2": 18,
+                    "3": 18,
+                    "50": 25,
+                    "62": 42,
+                    "100": 32
+                }
+            },
+            "Duration": 180000
+        },
+        "101": {
+            "Requirements": {
+                "Credits": 10000,
+                "Resources": {
+                    "2": 20,
+                    "4": 24,
+                    "50": 55,
+                    "63": 60,
+                    "100": 50
+                }
+            },
+            "Duration": 312000
+        },
+        "102": {
+            "Requirements": {
+                "Credits": 1700,
+                "Resources": {
+                    "3": 12,
+                    "39": 32,
+                    "56": 35,
+                    "99": 25
+                }
+            },
+            "Duration": 57000
+        },
+        "103": {
+            "Requirements": {
+                "Credits": 5600,
+                "Resources": {
+                    "3": 20,
+                    "4": 16,
+                    "40": 26,
+                    "57": 110,
+                    "99": 54
+                }
+            },
+            "Duration": 180000
+        },
+        "104": {
+            "Requirements": {
+                "Credits": 10000,
+                "Resources": {
+                    "4": 30,
+                    "40": 40,
+                    "47": 65,
+                    "62": 82,
+                    "99": 68
+                }
+            },
+            "Duration": 312000
+        },
+        "105": {
+            "Requirements": {
+                "Credits": 1700,
+                "Resources": {
+                    "47": 14,
+                    "56": 86,
+                    "59": 58,
+                    "96": 49
+                }
+            },
+            "Duration": 57000
+        },
+        "106": {
+            "Requirements": {
+                "Credits": 5600,
+                "Resources": {
+                    "47": 40,
+                    "48": 30,
+                    "59": 60,
+                    "61": 86,
+                    "96": 68
+                }
+            },
+            "Duration": 180000
+        },
+        "107": {
+            "Requirements": {
+                "Credits": 10000,
+                "Resources": {
+                    "49": 60,
+                    "50": 50,
+                    "62": 45,
+                    "63": 54,
+                    "96": 65
+                }
+            },
+            "Duration": 312000
+        },
+        "108": {
+            "Requirements": {
+                "Credits": 1450,
+                "Resources": {
+                    "47": 16,
+                    "56": 65,
+                    "58": 65,
+                    "98": 46
+                }
+            },
+            "Duration": 49500
+        },
+        "109": {
+            "Requirements": {
+                "Credits": 4750,
+                "Resources": {
+                    "16": 12,
+                    "40": 55,
+                    "59": 35,
+                    "61": 58,
+                    "98": 50
+                }
+            },
+            "Duration": 168000
+        },
+        "110": {
+            "Requirements": {
+                "Credits": 11500,
+                "Resources": {
+                    "41": 35,
+                    "49": 35,
+                    "62": 70,
+                    "63": 50,
+                    "98": 59
+                }
+            },
+            "Duration": 345000
+        },
+        "111": {
+            "Requirements": {
+                "Credits": 1450,
+                "Resources": {
+                    "1": 10,
+                    "61": 18,
+                    "63": 8,
+                    "100": 11
+                }
+            },
+            "Duration": 49500
+        },
+        "112": {
+            "Requirements": {
+                "Credits": 4750,
+                "Resources": {
+                    "3": 22,
+                    "15": 16,
+                    "40": 25,
+                    "61": 55,
+                    "100": 37
+                }
+            },
+            "Duration": 168000
+        },
+        "113": {
+            "Requirements": {
+                "Credits": 11500,
+                "Resources": {
+                    "4": 28,
+                    "16": 14,
+                    "41": 24,
+                    "61": 90,
+                    "100": 49
+                }
+            },
+            "Duration": 345000
+        },
+        "120": {
+            "Requirements": {
+                "Credits": 690,
+                "Resources": {
+                    "48": 15,
+                    "57": 6,
+                    "96": 7,
+                    "154": 2
+                }
+            },
+            "Duration": 23700
+        },
+        "121": {
+            "Requirements": {
+                "Credits": 600,
+                "Resources": {
+                    "48": 20,
+                    "57": 10,
+                    "96": 11,
+                    "154": 4
+                }
+            },
+            "Duration": 24000
+        },
+        "122": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "47": 20,
+                    "50": 8,
+                    "62": 6,
+                    "96": 12,
+                    "154": 5
+                }
+            },
+            "Duration": 54000
+        },
+        "123": {
+            "Requirements": {
+                "Credits": 690,
+                "Resources": {
+                    "15": 2,
+                    "38": 12,
+                    "58": 8,
+                    "98": 7
+                }
+            },
+            "Duration": 23700
+        },
+        "124": {
+            "Requirements": {
+                "Credits": 600,
+                "Resources": {
+                    "17": 3,
+                    "40": 6,
+                    "61": 6,
+                    "98": 5
+                }
+            },
+            "Duration": 24000
+        },
+        "125": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "18": 2,
+                    "40": 11,
+                    "48": 12,
+                    "61": 10,
+                    "98": 11
+                }
+            },
+            "Duration": 54000
+        },
+        "126": {
+            "Requirements": {
+                "Credits": 440,
+                "Resources": {
+                    "47": 20,
+                    "48": 8,
+                    "60": 8,
+                    "96": 11
+                }
+            },
+            "Duration": 16200
+        },
+        "127": {
+            "Requirements": {
+                "Credits": 1200,
+                "Resources": {
+                    "48": 4,
+                    "49": 10,
+                    "62": 9,
+                    "96": 7
+                }
+            },
+            "Duration": 42000
+        },
+        "128": {
+            "Requirements": {
+                "Credits": 710,
+                "Resources": {
+                    "4": 5,
+                    "49": 6,
+                    "50": 10,
+                    "63": 6,
+                    "96": 8
+                }
+            },
+            "Duration": 30300
+        },
+        "129": {
+            "Requirements": {
+                "Credits": 440,
+                "Resources": {
+                    "15": 4,
+                    "18": 2,
+                    "59": 8,
+                    "100": 4
+                }
+            },
+            "Duration": 16200
+        },
+        "130": {
+            "Requirements": {
+                "Credits": 1200,
+                "Resources": {
+                    "1": 6,
+                    "18": 3,
+                    "59": 12,
+                    "100": 7
+                }
+            },
+            "Duration": 42000
+        },
+        "131": {
+            "Requirements": {
+                "Credits": 710,
+                "Resources": {
+                    "1": 4,
+                    "3": 4,
+                    "18": 2,
+                    "63": 10,
+                    "100": 6
+                }
+            },
+            "Duration": 30300
+        },
+        "132": {
+            "Requirements": {
+                "Credits": 1250,
+                "Resources": {
+                    "48": 28,
+                    "61": 28,
+                    "98": 19,
+                    "154": 6
+                }
+            },
+            "Duration": 43500
+        },
+        "133": {
+            "Requirements": {
+                "Credits": 6500,
+                "Resources": {
+                    "16": 12,
+                    "49": 25,
+                    "59": 65,
+                    "98": 37,
+                    "154": 16
+                }
+            },
+            "Duration": 207000
+        },
+        "134": {
+            "Requirements": {
+                "Credits": 12000,
+                "Resources": {
+                    "17": 24,
+                    "50": 35,
+                    "63": 50,
+                    "98": 44,
+                    "154": 32
+                }
+            },
+            "Duration": 360000
+        },
+        "135": {
+            "Requirements": {
+                "Credits": 1250,
+                "Resources": {
+                    "1": 8,
+                    "39": 36,
+                    "57": 65,
+                    "100": 34
+                }
+            },
+            "Duration": 43500
+        },
+        "136": {
+            "Requirements": {
+                "Credits": 6500,
+                "Resources": {
+                    "3": 14,
+                    "16": 8,
+                    "39": 60,
+                    "58": 85,
+                    "100": 52
+                }
+            },
+            "Duration": 207000
+        },
+        "137": {
+            "Requirements": {
+                "Credits": 12000,
+                "Resources": {
+                    "2": 28,
+                    "18": 18,
+                    "41": 35,
+                    "63": 60,
+                    "100": 44
+                }
+            },
+            "Duration": 360000
+        },
+        "138": {
+            "Requirements": {
+                "Credits": 1250,
+                "Resources": {
+                    "40": 16,
+                    "41": 8,
+                    "61": 24,
+                    "96": 15
+                }
+            },
+            "Duration": 43500
+        },
+        "139": {
+            "Requirements": {
+                "Credits": 3700,
+                "Resources": {
+                    "3": 16,
+                    "49": 27,
+                    "50": 27,
+                    "63": 35,
+                    "96": 33
+                }
+            },
+            "Duration": 123000
+        },
+        "140": {
+            "Requirements": {
+                "Credits": 7500,
+                "Resources": {
+                    "1": 28,
+                    "4": 14,
+                    "61": 90,
+                    "96": 44,
+                    "154": 10
+                }
+            },
+            "Duration": 252000
+        },
+        "141": {
+            "Requirements": {
+                "Credits": 1250,
+                "Resources": {
+                    "3": 6,
+                    "38": 45,
+                    "58": 60,
+                    "101": 35
+                }
+            },
+            "Duration": 43500
+        },
+        "142": {
+            "Requirements": {
+                "Credits": 3700,
+                "Resources": {
+                    "1": 36,
+                    "2": 8,
+                    "49": 33,
+                    "62": 22,
+                    "101": 31
+                }
+            },
+            "Duration": 123000
+        },
+        "143": {
+            "Requirements": {
+                "Credits": 7500,
+                "Resources": {
+                    "17": 16,
+                    "18": 16,
+                    "41": 55,
+                    "63": 65,
+                    "101": 48
+                }
+            },
+            "Duration": 252000
+        },
+        "264": {
+            "Requirements": {
+                "Credits": 250,
+                "Resources": {
+                    "56": 2,
+                    "57": 3,
+                    "58": 2,
+                    "96": 4
+                }
+            },
+            "Duration": 10800
+        },
+        "265": {
+            "Requirements": {
+                "Credits": 500,
+                "Resources": {
+                    "57": 10,
+                    "61": 2,
+                    "62": 2,
+                    "63": 2,
+                    "97": 8
+                }
+            },
+            "Duration": 18000
+        },
+        "267": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "1": 1,
+                    "49": 2,
+                    "58": 5,
+                    "99": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "268": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "3": 3,
+                    "40": 3,
+                    "58": 8,
+                    "61": 4,
+                    "100": 9
+                }
+            },
+            "Duration": 28800
+        },
+        "270": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "39": 5,
+                    "56": 5,
+                    "61": 2,
+                    "96": 6
+                }
+            },
+            "Duration": 18000
+        },
+        "271": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "1": 6,
+                    "33": 125,
+                    "60": 12,
+                    "61": 4,
+                    "97": 12
+                }
+            },
+            "Duration": 28800
+        },
+        "273": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "50": 3,
+                    "60": 5,
+                    "62": 2,
+                    "99": 5
+                }
+            },
+            "Duration": 18000
+        },
+        "274": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "41": 4,
+                    "56": 12,
+                    "62": 6,
+                    "100": 13,
+                    "154": 4
+                }
+            },
+            "Duration": 28800
+        },
+        "282": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "48": 5,
+                    "58": 8,
+                    "62": 2,
+                    "96": 8
+                }
+            },
+            "Duration": 18000
+        },
+        "283": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "50": 6,
+                    "57": 12,
+                    "61": 4,
+                    "62": 4,
+                    "97": 13
+                }
+            },
+            "Duration": 28800
+        },
+        "285": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "47": 5,
+                    "56": 6,
+                    "99": 6,
+                    "154": 2
+                }
+            },
+            "Duration": 18000
+        },
+        "286": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "48": 12,
+                    "58": 12,
+                    "62": 4,
+                    "100": 16,
+                    "154": 4
+                }
+            },
+            "Duration": 28800
+        },
+        "288": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "49": 3,
+                    "60": 8,
+                    "61": 2,
+                    "96": 6
+                }
+            },
+            "Duration": 18000
+        },
+        "289": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "49": 4,
+                    "50": 4,
+                    "59": 12,
+                    "97": 12,
+                    "154": 4
+                }
+            },
+            "Duration": 28800
+        },
+        "297": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "49": 3,
+                    "57": 4,
+                    "62": 3,
+                    "99": 5
+                }
+            },
+            "Duration": 18000
+        },
+        "298": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "16": 4,
+                    "49": 4,
+                    "56": 16,
+                    "60": 16,
+                    "100": 15
+                }
+            },
+            "Duration": 28800
+        },
+        "300": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "32": 25,
+                    "60": 8,
+                    "61": 4,
+                    "96": 8
+                }
+            },
+            "Duration": 18000
+        },
+        "301": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "2": 4,
+                    "30": 125,
+                    "58": 12,
+                    "62": 6,
+                    "97": 15
+                }
+            },
+            "Duration": 28800
+        },
+        "303": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "31": 25,
+                    "47": 5,
+                    "63": 5,
+                    "99": 6
+                }
+            },
+            "Duration": 18000
+        },
+        "304": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "2": 6,
+                    "27": 125,
+                    "56": 12,
+                    "57": 12,
+                    "100": 15
+                }
+            },
+            "Duration": 28800
+        },
+        "306": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "3": 2,
+                    "48": 5,
+                    "58": 8,
+                    "96": 7
+                }
+            },
+            "Duration": 18000
+        },
+        "307": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "49": 4,
+                    "60": 12,
+                    "61": 2,
+                    "97": 10,
+                    "151": 75
+                }
+            },
+            "Duration": 28800
+        },
+        "309": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "38": 5,
+                    "60": 6,
+                    "61": 2,
+                    "99": 6
+                }
+            },
+            "Duration": 18000
+        },
+        "310": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "16": 6,
+                    "32": 125,
+                    "60": 12,
+                    "62": 4,
+                    "100": 15
+                }
+            },
+            "Duration": 28800
+        },
+        "312": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "1": 2,
+                    "31": 25,
+                    "56": 8,
+                    "96": 6
+                }
+            },
+            "Duration": 18000
+        },
+        "313": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "2": 4,
+                    "40": 4,
+                    "60": 12,
+                    "61": 4,
+                    "97": 12
+                }
+            },
+            "Duration": 28800
+        },
+        "315": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "33": 25,
+                    "39": 8,
+                    "60": 8,
+                    "99": 8
+                }
+            },
+            "Duration": 18000
+        },
+        "316": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "4": 3,
+                    "38": 12,
+                    "58": 8,
+                    "63": 3,
+                    "100": 13
+                }
+            },
+            "Duration": 28800
+        },
+        "318": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "39": 2,
+                    "60": 12,
+                    "62": 4,
+                    "96": 9
+                }
+            },
+            "Duration": 18000
+        },
+        "319": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "16": 4,
+                    "41": 6,
+                    "47": 12,
+                    "62": 2,
+                    "97": 12
+                }
+            },
+            "Duration": 28800
+        },
+        "321": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "3": 2,
+                    "30": 25,
+                    "58": 10,
+                    "99": 7
+                }
+            },
+            "Duration": 18000
+        },
+        "322": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "18": 3,
+                    "39": 12,
+                    "59": 12,
+                    "63": 2,
+                    "100": 14
+                }
+            },
+            "Duration": 28800
+        },
+        "324": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "47": 5,
+                    "60": 6,
+                    "61": 4,
+                    "96": 7
+                }
+            },
+            "Duration": 18000
+        },
+        "325": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "1": 3,
+                    "17": 3,
+                    "57": 12,
+                    "60": 12,
+                    "97": 15
+                }
+            },
+            "Duration": 28800
+        },
+        "327": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "17": 2,
+                    "38": 6,
+                    "60": 6,
+                    "99": 7
+                }
+            },
+            "Duration": 18000
+        },
+        "328": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "27": 125,
+                    "61": 4,
+                    "62": 4,
+                    "100": 20,
+                    "151": 75
+                }
+            },
+            "Duration": 28800
+        },
+        "330": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "50": 2,
+                    "58": 6,
+                    "96": 6,
+                    "154": 2
+                }
+            },
+            "Duration": 18000
+        },
+        "331": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "40": 4,
+                    "48": 16,
+                    "49": 4,
+                    "56": 12,
+                    "97": 16
+                }
+            },
+            "Duration": 28800
+        },
+        "333": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "32": 25,
+                    "50": 5,
+                    "60": 12,
+                    "99": 8
+                }
+            },
+            "Duration": 18000
+        },
+        "334": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "41": 6,
+                    "47": 12,
+                    "50": 6,
+                    "56": 12,
+                    "100": 16
+                }
+            },
+            "Duration": 28800
+        },
+        "336": {
+            "Requirements": {
+                "Credits": 540,
+                "Resources": {
+                    "38": 5,
+                    "60": 7,
+                    "62": 3,
+                    "96": 7
+                }
+            },
+            "Duration": 18000
+        },
+        "337": {
+            "Requirements": {
+                "Credits": 850,
+                "Resources": {
+                    "4": 3,
+                    "17": 3,
+                    "57": 12,
+                    "58": 12,
+                    "97": 15
+                }
+            },
+            "Duration": 28800
+        },
+        "339": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "15": 1,
+                    "59": 5,
+                    "99": 4,
+                    "151": 10
+                }
+            },
+            "Duration": 18000
+        },
+        "340": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "4": 1,
+                    "49": 0,
+                    "59": 5,
+                    "100": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "341": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "41": 2,
+                    "59": 5,
+                    "101": 4,
+                    "154": 1
+                }
+            },
+            "Duration": 18000
+        },
+        "342": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "1": 1,
+                    "40": 2,
+                    "59": 5,
+                    "96": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "343": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "47": 6,
+                    "59": 5,
+                    "97": 4,
+                    "151": 10
+                }
+            },
+            "Duration": 18000
+        },
+        "344": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "2": 1,
+                    "18": 1,
+                    "59": 5,
+                    "98": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "345": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "16": 1,
+                    "41": 2,
+                    "59": 5,
+                    "99": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "346": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "4": 1,
+                    "59": 5,
+                    "100": 4,
+                    "151": 10
+                }
+            },
+            "Duration": 18000
+        },
+        "347": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "17": 1,
+                    "18": 1,
+                    "59": 5,
+                    "101": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "348": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "41": 2,
+                    "59": 5,
+                    "63": 1,
+                    "96": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "349": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "16": 1,
+                    "40": 2,
+                    "59": 5,
+                    "97": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "350": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "50": 3,
+                    "59": 5,
+                    "98": 4,
+                    "151": 10
+                }
+            },
+            "Duration": 18000
+        },
+        "351": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "3": 1,
+                    "18": 1,
+                    "59": 5,
+                    "99": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "352": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "4": 1,
+                    "41": 2,
+                    "59": 5,
+                    "100": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "353": {
+            "Requirements": {
+                "Credits": 300,
+                "Resources": {
+                    "3": 1,
+                    "59": 5,
+                    "63": 1,
+                    "101": 4
+                }
+            },
+            "Duration": 18000
+        },
+        "354": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "15": 2,
+                    "58": 10,
+                    "96": 8,
+                    "151": 10
+                }
+            },
+            "Duration": 36000
+        },
+        "355": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "2": 4,
+                    "50": 5,
+                    "56": 12,
+                    "63": 5,
+                    "97": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "357": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "48": 8,
+                    "57": 6,
+                    "61": 2,
+                    "99": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "358": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "18": 6,
+                    "40": 6,
+                    "48": 8,
+                    "60": 6,
+                    "100": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "360": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "15": 4,
+                    "27": 50,
+                    "57": 10,
+                    "96": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "361": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "41": 6,
+                    "58": 12,
+                    "62": 4,
+                    "97": 12,
+                    "154": 4
+                }
+            },
+            "Duration": 57600
+        },
+        "369": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "47": 3,
+                    "58": 14,
+                    "62": 2,
+                    "99": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "370": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "32": 250,
+                    "40": 8,
+                    "57": 12,
+                    "61": 6,
+                    "100": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "372": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "17": 2,
+                    "39": 3,
+                    "56": 12,
+                    "96": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "373": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "38": 14,
+                    "39": 14,
+                    "56": 12,
+                    "61": 4,
+                    "97": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "375": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "56": 8,
+                    "57": 8,
+                    "99": 8,
+                    "151": 25
+                }
+            },
+            "Duration": 36000
+        },
+        "376": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "38": 8,
+                    "40": 5,
+                    "61": 4,
+                    "100": 12,
+                    "154": 5
+                }
+            },
+            "Duration": 57600
+        },
+        "378": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "40": 3,
+                    "57": 6,
+                    "63": 2,
+                    "96": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "379": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "15": 4,
+                    "40": 5,
+                    "58": 12,
+                    "63": 6,
+                    "97": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "381": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "15": 2,
+                    "47": 5,
+                    "57": 10,
+                    "99": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "382": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "38": 12,
+                    "41": 4,
+                    "58": 12,
+                    "63": 6,
+                    "100": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "384": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "48": 5,
+                    "56": 10,
+                    "61": 2,
+                    "96": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "385": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "40": 6,
+                    "47": 16,
+                    "56": 16,
+                    "62": 4,
+                    "97": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "387": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "38": 5,
+                    "58": 10,
+                    "99": 8,
+                    "154": 2
+                }
+            },
+            "Duration": 36000
+        },
+        "388": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "48": 16,
+                    "49": 6,
+                    "59": 16,
+                    "61": 4,
+                    "100": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "390": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "31": 25,
+                    "48": 8,
+                    "57": 12,
+                    "96": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "391": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "39": 10,
+                    "50": 4,
+                    "62": 4,
+                    "97": 12,
+                    "151": 50
+                }
+            },
+            "Duration": 57600
+        },
+        "393": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "39": 5,
+                    "57": 10,
+                    "61": 2,
+                    "99": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "394": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "16": 6,
+                    "50": 4,
+                    "57": 12,
+                    "63": 4,
+                    "100": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "396": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "50": 3,
+                    "56": 10,
+                    "96": 8,
+                    "151": 15
+                }
+            },
+            "Duration": 36000
+        },
+        "397": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "39": 12,
+                    "41": 4,
+                    "60": 12,
+                    "63": 6,
+                    "97": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "399": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "27": 25,
+                    "47": 8,
+                    "57": 12,
+                    "99": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "400": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "4": 4,
+                    "49": 9,
+                    "61": 2,
+                    "62": 2,
+                    "100": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "402": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "33": 25,
+                    "39": 12,
+                    "56": 12,
+                    "96": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "403": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "18": 6,
+                    "48": 8,
+                    "62": 2,
+                    "63": 6,
+                    "97": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "405": {
+            "Requirements": {
+                "Credits": 750,
+                "Resources": {
+                    "49": 3,
+                    "56": 8,
+                    "62": 3,
+                    "99": 8
+                }
+            },
+            "Duration": 36000
+        },
+        "406": {
+            "Requirements": {
+                "Credits": 1150,
+                "Resources": {
+                    "2": 4,
+                    "38": 12,
+                    "58": 12,
+                    "63": 4,
+                    "100": 12
+                }
+            },
+            "Duration": 57600
+        },
+        "408": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "2": 2,
+                    "15": 2,
+                    "63": 5,
+                    "96": 5,
+                    "154": 2
+                }
+            },
+            "Duration": 54000
+        },
+        "409": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "2": 4,
+                    "15": 6,
+                    "62": 4,
+                    "63": 4,
+                    "97": 10,
+                    "154": 4
+                }
+            },
+            "Duration": 72000
+        },
+        "411": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "4": 2,
+                    "17": 2,
+                    "63": 5,
+                    "99": 5,
+                    "154": 2
+                }
+            },
+            "Duration": 54000
+        },
+        "412": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "4": 4,
+                    "17": 4,
+                    "62": 4,
+                    "63": 4,
+                    "100": 10,
+                    "154": 4
+                }
+            },
+            "Duration": 72000
+        },
+        "414": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "1": 2,
+                    "16": 2,
+                    "63": 5,
+                    "96": 5,
+                    "154": 2
+                }
+            },
+            "Duration": 54000
+        },
+        "415": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "1": 6,
+                    "16": 4,
+                    "61": 4,
+                    "63": 4,
+                    "97": 10,
+                    "154": 4
+                }
+            },
+            "Duration": 72000
+        },
+        "417": {
+            "Requirements": {
+                "Credits": 1000,
+                "Resources": {
+                    "3": 2,
+                    "18": 2,
+                    "63": 5,
+                    "99": 5,
+                    "154": 2
+                }
+            },
+            "Duration": 54000
+        },
+        "418": {
+            "Requirements": {
+                "Credits": 1500,
+                "Resources": {
+                    "3": 4,
+                    "18": 4,
+                    "61": 4,
+                    "63": 4,
+                    "100": 10,
+                    "154": 4
+                }
+            },
+            "Duration": 72000
+        }
+    }
+]

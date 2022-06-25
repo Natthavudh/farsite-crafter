@@ -1,0 +1,1461 @@
+[
+  {
+    "id": 1,
+    "code": "RU1",
+    "name": "Rubies",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 6,
+    "discovered": true
+  },
+  {
+    "id": 2,
+    "code": "EM2",
+    "name": "Emeralds",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 7,
+    "discovered": true
+  },
+  {
+    "id": 3,
+    "code": "SA3",
+    "name": "Sapphires",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 7,
+    "discovered": true
+  },
+  {
+    "id": 4,
+    "code": "DI4",
+    "name": "Diamonds",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 9,
+    "discovered": true
+  },
+  {
+    "id": 5,
+    "code": "AG5",
+    "name": "Agate",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 5
+  },
+  {
+    "id": 6,
+    "code": "AM6",
+    "name": "Amber",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 9
+  },
+  {
+    "id": 7,
+    "code": "TO7",
+    "name": "Tourmaline",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 7
+  },
+  {
+    "id": 8,
+    "code": "ZI8",
+    "name": "Zircon",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 9
+  },
+  {
+    "id": 9,
+    "code": "SU9",
+    "name": "Sunstone",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 6
+  },
+  {
+    "id": 10,
+    "code": "JA10",
+    "name": "Jade",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 8
+  },
+  {
+    "id": 11,
+    "code": "CI11",
+    "name": "Citrine",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 6
+  },
+  {
+    "id": 12,
+    "code": "TO12",
+    "name": "Topaz",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 7
+  },
+  {
+    "id": 13,
+    "code": "AQ13",
+    "name": "Aquamarine",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 7
+  },
+  {
+    "id": 14,
+    "code": "MO14",
+    "name": "Moonstone",
+    "type": "Mineral",
+    "group": "Gem",
+    "color": "#cc41cc",
+    "volume": 7
+  },
+  {
+    "id": 15,
+    "code": "KA15",
+    "name": "Kariya crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 7,
+    "discovered": true
+  },
+  {
+    "id": 16,
+    "code": "HA16",
+    "name": "Harp crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 9,
+    "discovered": true
+  },
+  {
+    "id": 17,
+    "code": "RE17",
+    "name": "Reberite crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 7,
+    "discovered": true
+  },
+  {
+    "id": 18,
+    "code": "TH18",
+    "name": "Thorite crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 9,
+    "discovered": true
+  },
+  {
+    "id": 19,
+    "code": "QU19",
+    "name": "Quartz crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 7
+  },
+  {
+    "id": 20,
+    "code": "CA20",
+    "name": "Cavansite crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 8
+  },
+  {
+    "id": 21,
+    "code": "CA21",
+    "name": "Сalcite crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 7
+  },
+  {
+    "id": 22,
+    "code": "PY22",
+    "name": "Pyrite crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 8
+  },
+  {
+    "id": 23,
+    "code": "BE23",
+    "name": "Beryl crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 7
+  },
+  {
+    "id": 24,
+    "code": "AP24",
+    "name": "Apatite crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 9
+  },
+  {
+    "id": 25,
+    "code": "GA25",
+    "name": "Garnet crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 5
+  },
+  {
+    "id": 26,
+    "code": "FL26",
+    "name": "Fluorite crystals",
+    "type": "Mineral",
+    "group": "Crystal",
+    "color": "#6d2c99",
+    "volume": 7
+  },
+  {
+    "id": 27,
+    "code": "SA27",
+    "name": "Sand",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 28,
+    "code": "CR28",
+    "name": "Crystal sand",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 5
+  },
+  {
+    "id": 29,
+    "code": "ON29",
+    "name": "Onyx sand",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 8
+  },
+  {
+    "id": 30,
+    "code": "CL30",
+    "name": "Clay",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 3,
+    "discovered": true
+  },
+  {
+    "id": 31,
+    "code": "CR31",
+    "name": "Crushed stone",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 32,
+    "code": "GR32",
+    "name": "Granite",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 33,
+    "code": "MA33",
+    "name": "Marble",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 34,
+    "code": "ON34",
+    "name": "Onyx",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 5
+  },
+  {
+    "id": 35,
+    "code": "OB35",
+    "name": "Obsidian",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 7
+  },
+  {
+    "id": 36,
+    "code": "VO36",
+    "name": "Volcanic glass",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 11
+  },
+  {
+    "id": 37,
+    "code": "BA37",
+    "name": "Basalt",
+    "type": "Mineral",
+    "group": "Stone rock",
+    "color": "#634220",
+    "volume": 10
+  },
+  {
+    "id": 38,
+    "code": "PAm38",
+    "name": "Paraffins",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 39,
+    "code": "POm39",
+    "name": "Polymers",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 3,
+    "discovered": true
+  },
+  {
+    "id": 40,
+    "code": "ALm40",
+    "name": "Alkali",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 41,
+    "code": "POm41",
+    "name": "Polypropylene",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 42,
+    "code": "PIm42",
+    "name": "Plastic",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 5
+  },
+  {
+    "id": 43,
+    "code": "BIm43",
+    "name": "Bitumen",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 6
+  },
+  {
+    "id": 44,
+    "code": "TEm44",
+    "name": "Textolite",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 9
+  },
+  {
+    "id": 45,
+    "code": "COm45",
+    "name": "Combustible",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 7
+  },
+  {
+    "id": 46,
+    "code": "POm46",
+    "name": "Polystyrene",
+    "type": "Material",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 11
+  },
+  {
+    "id": 47,
+    "code": "HYm47",
+    "name": "Hydrogen",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 3,
+    "discovered": true
+  },
+  {
+    "id": 48,
+    "code": "OXm48",
+    "name": "Oxygen",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 49,
+    "code": "NIm49",
+    "name": "Nitrogen",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 50,
+    "code": "KRm50",
+    "name": "Krypton",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 6,
+    "discovered": true
+  },
+  {
+    "id": 51,
+    "code": "NEm51",
+    "name": "Neon",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 6
+  },
+  {
+    "id": 52,
+    "code": "RAm52",
+    "name": "Radon",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 6
+  },
+  {
+    "id": 53,
+    "code": "XEm53",
+    "name": "Xenon",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 9
+  },
+  {
+    "id": 54,
+    "code": "ARm54",
+    "name": "Argon",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 7
+  },
+  {
+    "id": 55,
+    "code": "OGm55",
+    "name": "Oganeson",
+    "type": "Material",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 11
+  },
+  {
+    "id": 56,
+    "code": "TIm56",
+    "name": "Tin",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 57,
+    "code": "IRm57",
+    "name": "Iron",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 58,
+    "code": "STm58",
+    "name": "Scandium",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 3,
+    "discovered": true
+  },
+  {
+    "id": 59,
+    "code": "COm59",
+    "name": "Copper",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 60,
+    "code": "ALm60",
+    "name": "Aluminum",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 4,
+    "discovered": true
+  },
+  {
+    "id": 61,
+    "code": "ZIm61",
+    "name": "Zinc",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 62,
+    "code": "NIm62",
+    "name": "Nickel",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 63,
+    "code": "TIm63",
+    "name": "Titanium",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 5,
+    "discovered": true
+  },
+  {
+    "id": 64,
+    "code": "TUm64",
+    "name": "Tungsten",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 6
+  },
+  {
+    "id": 65,
+    "code": "QUm65",
+    "name": "Quicksilver",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 7
+  },
+  {
+    "id": 66,
+    "code": "LEm66",
+    "name": "Lead",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 6
+  },
+  {
+    "id": 67,
+    "code": "YTm67",
+    "name": "Yttrium",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 6
+  },
+  {
+    "id": 68,
+    "code": "ERm68",
+    "name": "Erbium",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 6
+  },
+  {
+    "id": 69,
+    "code": "SAm69",
+    "name": "Samarium",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 7
+  },
+  {
+    "id": 70,
+    "code": "HOm70",
+    "name": "Holmium",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 7
+  },
+  {
+    "id": 71,
+    "code": "TAm71",
+    "name": "Tantalum",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 7
+  },
+  {
+    "id": 72,
+    "code": "SIm72",
+    "name": "Silver",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 9
+  },
+  {
+    "id": 73,
+    "code": "GOm73",
+    "name": "Gold",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 8
+  },
+  {
+    "id": 74,
+    "code": "PLm74",
+    "name": "Platinum",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 8
+  },
+  {
+    "id": 75,
+    "code": "IRm75",
+    "name": "Iridium",
+    "type": "Material",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 8
+  },
+  {
+    "id": 76,
+    "code": "URm76",
+    "name": "Uranus",
+    "type": "Material",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 11
+  },
+  {
+    "id": 77,
+    "code": "PLm77",
+    "name": "Plutonium",
+    "type": "Material",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 13
+  },
+  {
+    "id": 78,
+    "code": "TEm78",
+    "name": "Technicium",
+    "type": "Material",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 12
+  },
+  {
+    "id": 79,
+    "code": "PRm79",
+    "name": "Promethium",
+    "type": "Material",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 12
+  },
+  {
+    "id": 151,
+    "code": "LUm80",
+    "name": "Lumber",
+    "type": "Material",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 13,
+    "discovered": true
+  },
+  {
+    "id": 81,
+    "code": "CAm81",
+    "name": "Caoutchouc",
+    "type": "Material",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 7
+  },
+  {
+    "id": 82,
+    "code": "SIm82",
+    "name": "Silicone",
+    "type": "Material",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 5
+  },
+  {
+    "id": 154,
+    "code": "WAm83",
+    "name": "Water",
+    "type": "Material",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 24,
+    "discovered": true
+  },
+  {
+    "id": 84,
+    "code": "PLm84",
+    "name": "Plant",
+    "type": "Material",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 8
+  },
+  {
+    "id": 85,
+    "code": "SUm85",
+    "name": "Sulfur",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 9
+  },
+  {
+    "id": 86,
+    "code": "CLm86",
+    "name": "Chloride",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 10
+  },
+  {
+    "id": 87,
+    "code": "SOm87",
+    "name": "Sodium",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 11
+  },
+  {
+    "id": 88,
+    "code": "CAm88",
+    "name": "Carbon",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 10
+  },
+  {
+    "id": 89,
+    "code": "SIm89",
+    "name": "Silicium",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 9
+  },
+  {
+    "id": 90,
+    "code": "COm90",
+    "name": "Coal",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 11
+  },
+  {
+    "id": 91,
+    "code": "SIm91",
+    "name": "Simple acids",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 10
+  },
+  {
+    "id": 92,
+    "code": "COm92",
+    "name": "Complex acids",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 13
+  },
+  {
+    "id": 93,
+    "code": "ACm93",
+    "name": "Acetone",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 10
+  },
+  {
+    "id": 94,
+    "code": "POm94",
+    "name": "Polythene",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 11
+  },
+  {
+    "id": 95,
+    "code": "STm95",
+    "name": "Styrofoam",
+    "type": "Material",
+    "group": "Fossil",
+    "color": "#88735a",
+    "volume": 12
+  },
+  {
+    "id": 96,
+    "code": "RmCO2",
+    "name": "Regular CO2",
+    "type": "Material",
+    "group": "Side",
+    "color": "#999999",
+    "volume": 1,
+    "discovered": true
+  },
+  {
+    "id": 97,
+    "code": "SmCO2",
+    "name": "Solid CO2",
+    "type": "Material",
+    "group": "Side",
+    "color": "#999999",
+    "volume": 1,
+    "discovered": true
+  },
+  {
+    "id": 98,
+    "code": "LmCO2",
+    "name": "Liquid CO2",
+    "type": "Material",
+    "group": "Side",
+    "color": "#999999",
+    "volume": 1,
+    "discovered": true
+  },
+  {
+    "id": 99,
+    "code": "PDm1",
+    "name": "Planetary Dust",
+    "type": "Material",
+    "group": "Side",
+    "color": "#999999",
+    "volume": 1,
+    "discovered": true
+  },
+  {
+    "id": 100,
+    "code": "SDm1",
+    "name": "Star Dust",
+    "type": "Material",
+    "group": "Side",
+    "color": "#999999",
+    "volume": 1,
+    "discovered": true
+  },
+  {
+    "id": 101,
+    "code": "MPm1",
+    "name": "Matter particles",
+    "type": "Material",
+    "group": "Side",
+    "color": "#999999",
+    "volume": 1,
+    "discovered": true
+  },
+  {
+    "id": 102,
+    "code": "HE96",
+    "name": "Helium-3",
+    "type": "",
+    "group": "Unique resource",
+    "color": "#ff0202",
+    "volume": 1
+  },
+  {
+    "id": 103,
+    "code": "CA97",
+    "name": "Californium",
+    "type": "",
+    "group": "Unique resource",
+    "color": "#ff0202",
+    "volume": 1
+  },
+  {
+    "id": 104,
+    "code": "POo1",
+    "name": "Paraffin oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 105,
+    "code": "POo2",
+    "name": "Polymer oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 13,
+    "discovered": true
+  },
+  {
+    "id": 106,
+    "code": "AOo3",
+    "name": "Alkali oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 18,
+    "discovered": true
+  },
+  {
+    "id": 107,
+    "code": "POo4",
+    "name": "Polypropylene oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 108,
+    "code": "POo5",
+    "name": "Plastic oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 1
+  },
+  {
+    "id": 109,
+    "code": "BOo6",
+    "name": "Bitumen oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 1
+  },
+  {
+    "id": 110,
+    "code": "TOo7",
+    "name": "Textolite oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 1
+  },
+  {
+    "id": 111,
+    "code": "COo8",
+    "name": "Combustible oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 1
+  },
+  {
+    "id": 112,
+    "code": "COo9",
+    "name": "Complex oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 1
+  },
+  {
+    "id": 113,
+    "code": "POo10",
+    "name": "Polystyrene oil",
+    "type": "Ore",
+    "group": "Oil",
+    "color": "#742222",
+    "volume": 1
+  },
+  {
+    "id": 114,
+    "code": "HGo11",
+    "name": "Hydrogen gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 10,
+    "discovered": true
+  },
+  {
+    "id": 115,
+    "code": "OGo12",
+    "name": "Oxygen gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 10,
+    "discovered": true
+  },
+  {
+    "id": 116,
+    "code": "NGo13",
+    "name": "Nitrogen gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 117,
+    "code": "KGo14",
+    "name": "Krypton gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 17,
+    "discovered": true
+  },
+  {
+    "id": 118,
+    "code": "NG015",
+    "name": "Neon gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 1
+  },
+  {
+    "id": 119,
+    "code": "RGo16",
+    "name": "Radon gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 1
+  },
+  {
+    "id": 120,
+    "code": "XGo17",
+    "name": "Xenon gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 1
+  },
+  {
+    "id": 121,
+    "code": "AGo18",
+    "name": "Argon gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 1
+  },
+  {
+    "id": 122,
+    "code": "CGo19",
+    "name": "Complex gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 1
+  },
+  {
+    "id": 123,
+    "code": "OGo20",
+    "name": "Oganeson gas",
+    "type": "Ore",
+    "group": "Gas",
+    "color": "#a89a73",
+    "volume": 1
+  },
+  {
+    "id": 124,
+    "code": "TOo21",
+    "name": "Tin ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 125,
+    "code": "IOo22",
+    "name": "Iron ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 126,
+    "code": "SOo23",
+    "name": "Scandium ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 13,
+    "discovered": true
+  },
+  {
+    "id": 127,
+    "code": "COo24",
+    "name": "Copper ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 128,
+    "code": "AOo25",
+    "name": "Aluminum ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 129,
+    "code": "ZOo26",
+    "name": "Zinc ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 16,
+    "discovered": true
+  },
+  {
+    "id": 130,
+    "code": "NOo27",
+    "name": "Nickel ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 16,
+    "discovered": true
+  },
+  {
+    "id": 131,
+    "code": "TOo28",
+    "name": "Titanium ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 14,
+    "discovered": true
+  },
+  {
+    "id": 132,
+    "code": "TOo29",
+    "name": "Tungsten ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 133,
+    "code": "QOo30",
+    "name": "Quicksilver ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 134,
+    "code": "LOo31",
+    "name": "Lead ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 135,
+    "code": "YOo32",
+    "name": "Yttrium ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 136,
+    "code": "EOo33",
+    "name": "Erbium ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 137,
+    "code": "SOo34",
+    "name": "Samarium ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 138,
+    "code": "HOo35",
+    "name": "Holmium ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 139,
+    "code": "TOo36",
+    "name": "Tantalum ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 140,
+    "code": "SOo37",
+    "name": "Silver ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 141,
+    "code": "GOo38",
+    "name": "Gold ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 142,
+    "code": "POo39",
+    "name": "Platinum ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 143,
+    "code": "COo40",
+    "name": "Complex ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 144,
+    "code": "SOo41",
+    "name": "Special ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 145,
+    "code": "COo42",
+    "name": "Combined ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 146,
+    "code": "COo43",
+    "name": "Composite ore",
+    "type": "Ore",
+    "group": "Metal",
+    "color": "#85a1bb",
+    "volume": 1
+  },
+  {
+    "id": 147,
+    "code": "UOo44",
+    "name": "Uranus ore",
+    "type": "Ore",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 1
+  },
+  {
+    "id": 148,
+    "code": "POo45",
+    "name": "Plutonium ore",
+    "type": "Ore",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 1
+  },
+  {
+    "id": 149,
+    "code": "TOo46",
+    "name": "Technicium ore",
+    "type": "Ore",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 1
+  },
+  {
+    "id": 150,
+    "code": "POo47",
+    "name": "Promethium ore",
+    "type": "Ore",
+    "group": "Radioactive metal",
+    "color": "#5282ae",
+    "volume": 1
+  },
+  {
+    "id": 80,
+    "code": "LOo48",
+    "name": "Lumber organic",
+    "type": "Ore",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 3,
+    "discovered": true
+  },
+  {
+    "id": 152,
+    "code": "COo49",
+    "name": "Caoutchouc organic",
+    "type": "Ore",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 1
+  },
+  {
+    "id": 153,
+    "code": "SOo50",
+    "name": "Silicone organic",
+    "type": "Ore",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 1
+  },
+  {
+    "id": 83,
+    "code": "WOo51",
+    "name": "Water organic",
+    "type": "Ore",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 8,
+    "discovered": true
+  },
+  {
+    "id": 155,
+    "code": "POo52",
+    "name": "Plant organic",
+    "type": "Ore",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 1
+  },
+  {
+    "id": 156,
+    "code": "COo53",
+    "name": "Complex organic",
+    "type": "Ore",
+    "group": "Nature resource",
+    "color": "#659c4d",
+    "volume": 1
+  }
+]

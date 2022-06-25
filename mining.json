@@ -1,0 +1,221 @@
+[
+    {
+        "1": {
+            "Duration": 14400,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "2": {
+            "Duration": 19200,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 650
+            }
+        },
+        "3": {
+            "Duration": 14400,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "4": {
+            "Duration": 19200,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 650
+            }
+        },
+        "15": {
+            "Duration": 12000,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "16": {
+            "Duration": 16800,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 600
+            }
+        },
+        "17": {
+            "Duration": 12000,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "18": {
+            "Duration": 16800,
+            "Extraction": 1,
+            "Requirements": {
+                "Credits": 600
+            }
+        },
+        "27": {
+            "Duration": 24000,
+            "Extraction": 250,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "30": {
+            "Duration": 24000,
+            "Extraction": 250,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "31": {
+            "Duration": 24000,
+            "Extraction": 250,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "32": {
+            "Duration": 24000,
+            "Extraction": 250,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "33": {
+            "Duration": 24000,
+            "Extraction": 250,
+            "Requirements": {
+                "Credits": 500
+            }
+        },
+        "80": {
+            "Duration": 14400,
+            "Extraction": 100,
+            "Requirements": {
+                "Credits": 250
+            }
+        },
+        "83": {
+            "Duration": 36000,
+            "Extraction": 2,
+            "Requirements": {
+                "Credits": 100
+            }
+        },
+        "104": {
+            "Duration": 14400,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 160
+            }
+        },
+        "105": {
+            "Duration": 14400,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 160
+            }
+        },
+        "106": {
+            "Duration": 24000,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 440
+            }
+        },
+        "107": {
+            "Duration": 24000,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 440
+            }
+        },
+        "114": {
+            "Duration": 12000,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 200
+            }
+        },
+        "115": {
+            "Duration": 12000,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 200
+            }
+        },
+        "116": {
+            "Duration": 26400,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 300
+            }
+        },
+        "117": {
+            "Duration": 26400,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 300
+            }
+        },
+        "124": {
+            "Duration": 27600,
+            "Extraction": 20,
+            "Requirements": {
+                "Credits": 200
+            }
+        },
+        "125": {
+            "Duration": 27600,
+            "Extraction": 20,
+            "Requirements": {
+                "Credits": 200
+            }
+        },
+        "126": {
+            "Duration": 27600,
+            "Extraction": 20,
+            "Requirements": {
+                "Credits": 200
+            }
+        },
+        "127": {
+            "Duration": 27600,
+            "Extraction": 20,
+            "Requirements": {
+                "Credits": 200
+            }
+        },
+        "128": {
+            "Duration": 27600,
+            "Extraction": 20,
+            "Requirements": {
+                "Credits": 200
+            }
+        },
+        "129": {
+            "Duration": 25200,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 300
+            }
+        },
+        "130": {
+            "Duration": 25200,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 300
+            }
+        },
+        "131": {
+            "Duration": 25200,
+            "Extraction": 10,
+            "Requirements": {
+                "Credits": 300
+            }
+        }
+    }
+]

@@ -1,0 +1,2432 @@
+[
+    {
+      "volume": 104,
+      "id": 37,
+      "name": "Cybernetic Side Hatch",
+      "code": "com2",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 215,
+      "id": 60,
+      "name": "Gyroscopic Intake Buffer Tank",
+      "code": "com25",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 108,
+      "id": 131,
+      "name": "Bi-polar Star Navigation System",
+      "code": "com96",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 459,
+      "id": 100,
+      "name": "Dispersive Talkback Panel",
+      "code": "com65",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 70,
+      "id": 384,
+      "name": "Booster Amplifier",
+      "code": "mc121",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 121,
+      "id": 385,
+      "name": "Booster Amplifier",
+      "code": "mc122",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 386,
+      "name": "Booster Amplifier",
+      "code": "mc123",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 71,
+      "id": 387,
+      "name": "Radars Amplifier",
+      "code": "mc124",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 133,
+      "id": 388,
+      "name": "Radars Amplifier",
+      "code": "mc125",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 389,
+      "name": "Radars Amplifier",
+      "code": "mc126",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 90,
+      "id": 390,
+      "name": "Cloaker Amplifier",
+      "code": "mc127",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 110,
+      "id": 391,
+      "name": "Cloaker Amplifier",
+      "code": "mc128",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 392,
+      "name": "Cloaker Amplifier",
+      "code": "mc129",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 65,
+      "id": 393,
+      "name": "Drone Amplifier",
+      "code": "mc130",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 110,
+      "id": 394,
+      "name": "Drone Amplifier",
+      "code": "mc131",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 395,
+      "name": "Drone Amplifier",
+      "code": "mc132",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 176,
+      "id": 38,
+      "name": "Piezotronic Side Hatch",
+      "code": "com3",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 280,
+      "name": "Weapon Nuclear Element",
+      "code": "mc17",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 281,
+      "name": "Weapon Nuclear Element",
+      "code": "mc18",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 284,
+      "name": "Shield Artillery Element",
+      "code": "mc21",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 287,
+      "name": "Shield Missile Element",
+      "code": "mc24",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 69,
+      "id": 408,
+      "name": "Improved Ballistic Amplifier",
+      "code": "mc145",
+      "tier": 1,
+      "size": "S",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 106,
+      "id": 409,
+      "name": "Improved Ballistic Amplifier",
+      "code": "mc146",
+      "tier": 2,
+      "size": "M",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 410,
+      "name": "Improved Ballistic Amplifier",
+      "code": "mc147",
+      "tier": 3,
+      "size": "L",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 73,
+      "id": 411,
+      "name": "Improved Neutral Amplifier",
+      "code": "mc148",
+      "tier": 1,
+      "size": "S",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 102,
+      "id": 412,
+      "name": "Improved Neutral Amplifier",
+      "code": "mc149",
+      "tier": 2,
+      "size": "M",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 413,
+      "name": "Improved Neutral Amplifier",
+      "code": "mc150",
+      "tier": 3,
+      "size": "L",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 71,
+      "id": 414,
+      "name": "Improved Orbital Amplifier",
+      "code": "mc151",
+      "tier": 1,
+      "size": "S",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 108,
+      "id": 415,
+      "name": "Improved Orbital Amplifier",
+      "code": "mc152",
+      "tier": 2,
+      "size": "M",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 416,
+      "name": "Improved Orbital Amplifier",
+      "code": "mc153",
+      "tier": 3,
+      "size": "L",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 73,
+      "id": 417,
+      "name": "Improved Boundless Amplifier",
+      "code": "mc154",
+      "tier": 1,
+      "size": "S",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 102,
+      "id": 418,
+      "name": "Improved Boundless Amplifier",
+      "code": "mc155",
+      "tier": 2,
+      "size": "M",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 419,
+      "name": "Improved Boundless Amplifier",
+      "code": "mc156",
+      "tier": 3,
+      "size": "L",
+      "type": "improved amplifiers"
+    },
+    {
+      "volume": 59,
+      "id": 39,
+      "name": "Aquadan Oxygen Tank",
+      "code": "com4",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 97,
+      "id": 40,
+      "name": "Molecular Oxygen Tank",
+      "code": "com5",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 122,
+      "id": 41,
+      "name": "Crystalline Oxygen tank",
+      "code": "com6",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 48,
+      "id": 42,
+      "name": "Matrix Shaping Coil",
+      "code": "com7",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 63,
+      "id": 43,
+      "name": "Submaterial Field Shaping Coil",
+      "code": "com8",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 129,
+      "id": 44,
+      "name": "Hyperplasmic Field Shaping Coil",
+      "code": "com9",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 77,
+      "id": 46,
+      "name": "Superplastic Wing",
+      "code": "com11",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 133,
+      "id": 47,
+      "name": "Cryogenic Wing",
+      "code": "com12",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 77,
+      "id": 48,
+      "name": "Hard-Mineral Stringer",
+      "code": "com13",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 65,
+      "id": 49,
+      "name": "Hyperplasmic Stringer",
+      "code": "com14",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 552,
+      "id": 94,
+      "name": "Bipolar Line Filter",
+      "code": "com59",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 710,
+      "id": 95,
+      "name": "Energetic Line Filter",
+      "code": "com60",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 61,
+      "id": 96,
+      "name": "Programming Transformer",
+      "code": "com61",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 61,
+      "id": 97,
+      "name": "Analogue Transformer",
+      "code": "com62",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 117,
+      "id": 98,
+      "name": "Magnetic Transformer",
+      "code": "com63",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 228,
+      "id": 99,
+      "name": "Subtransfer Talkback Panel",
+      "code": "com64",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 740,
+      "id": 101,
+      "name": "Temporal Talkback Panel",
+      "code": "com66",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 240,
+      "id": 102,
+      "name": "Electrogenic Transmitter",
+      "code": "com67",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 641,
+      "id": 103,
+      "name": "Dispersive Transmitter",
+      "code": "com68",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 806,
+      "id": 104,
+      "name": "Octogenic Transmitter",
+      "code": "com69",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 464,
+      "id": 105,
+      "name": "Bipolar Additional Electronics",
+      "code": "com70",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 377,
+      "id": 108,
+      "name": "Pneumatic Pressure Panel",
+      "code": "com73",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 1,
+      "id": 266,
+      "name": "Large Frame",
+      "code": "mc3",
+      "tier": 3,
+      "size": "L",
+      "type": "units"
+    },
+    {
+      "volume": 1,
+      "id": 269,
+      "name": "Weapon Artillery Element",
+      "code": "mc6",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 272,
+      "name": "Weapon Missile Element",
+      "code": "mc9",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 98,
+      "id": 274,
+      "name": "Weapon Laser Element",
+      "code": "mc11",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 275,
+      "name": "Weapon Laser Element",
+      "code": "mc12",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 276,
+      "name": "Weapon Rail Element",
+      "code": "mc13",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 277,
+      "name": "Weapon Rail Element",
+      "code": "mc14",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 278,
+      "name": "Weapon Rail Element",
+      "code": "mc15",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 279,
+      "name": "Weapon Nuclear Element",
+      "code": "mc16",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 55,
+      "id": 51,
+      "name": "Cryogenic Reactor",
+      "code": "com16",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 51,
+      "id": 52,
+      "name": "Pneumatic Reactor",
+      "code": "com17",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 95,
+      "id": 53,
+      "name": "Tachyon Reactor",
+      "code": "com18",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 389,
+      "id": 54,
+      "name": "Cryomeric Spar",
+      "code": "com19",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 829,
+      "id": 55,
+      "name": "Erhenium Spar",
+      "code": "com20",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 915,
+      "id": 56,
+      "name": "Matrix Spar",
+      "code": "com21",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 341,
+      "id": 57,
+      "name": "Reticular Radiator",
+      "code": "com22",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 457,
+      "id": 58,
+      "name": "Cybernetic Radiator",
+      "code": "com23",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 791,
+      "id": 59,
+      "name": "Hinged Radiator",
+      "code": "com24",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 551,
+      "id": 61,
+      "name": "Mesostructural Intake Buffer Tank",
+      "code": "com26",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1045,
+      "id": 62,
+      "name": "Pseudo-vacuum Intake Buffer Tank",
+      "code": "com27",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 318,
+      "id": 63,
+      "name": "Pneumatic Fuse",
+      "code": "com28",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 717,
+      "id": 64,
+      "name": "Pseudo-vacuum Fuse",
+      "code": "com29",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 998,
+      "id": 65,
+      "name": "Molecular Fuse",
+      "code": "com30",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 371,
+      "id": 66,
+      "name": "Colloidal Fuselage",
+      "code": "com31",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 680,
+      "id": 67,
+      "name": "Octogenic Fuselage",
+      "code": "com32",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1091,
+      "id": 68,
+      "name": "Microcarboxylic Fuselage",
+      "code": "com33",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 303,
+      "id": 69,
+      "name": "Octogenic Accelerator",
+      "code": "com34",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 364,
+      "id": 70,
+      "name": "Crystalline Accelerator",
+      "code": "com35",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1039,
+      "id": 71,
+      "name": "Gyroscopic Accelerator",
+      "code": "com36",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 90,
+      "id": 120,
+      "name": "Electrogenic Life Supporting System",
+      "code": "com85",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 137,
+      "id": 121,
+      "name": "Cybernetic Life Supporting System",
+      "code": "com86",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 160,
+      "id": 122,
+      "name": "Analogue Life Supporting System",
+      "code": "com87",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 88,
+      "id": 123,
+      "name": "Energetic Fuel System",
+      "code": "com88",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 73,
+      "id": 124,
+      "name": "Polarazing Fuel System",
+      "code": "com89",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 154,
+      "id": 125,
+      "name": "Antimatter Fuel System",
+      "code": "com90",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 112,
+      "id": 126,
+      "name": "Vortex Air Supply System",
+      "code": "com91",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 100,
+      "id": 127,
+      "name": "Cybernetic Air Supply System",
+      "code": "com92",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 149,
+      "id": 128,
+      "name": "Molecular Air supply System",
+      "code": "com93",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 70,
+      "id": 129,
+      "name": "Cybernetic Star Navigation System",
+      "code": "com94",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 100,
+      "id": 130,
+      "name": "Graviton Star Navigation System",
+      "code": "com95",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 225,
+      "id": 132,
+      "name": "Vortex Hydro System",
+      "code": "com97",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 466,
+      "id": 133,
+      "name": "Polarazing Fuel System",
+      "code": "com98",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 663,
+      "id": 134,
+      "name": "Temporal Hydro System",
+      "code": "com99",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 618,
+      "id": 140,
+      "name": "Dispersive Cooling System",
+      "code": "com105",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 335,
+      "id": 141,
+      "name": "Impulse Power System",
+      "code": "com106",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 410,
+      "id": 142,
+      "name": "Graviton Power System",
+      "code": "com107",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 642,
+      "id": 143,
+      "name": "Matrix Power System",
+      "code": "com108",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 52,
+      "id": 81,
+      "name": "Polarizing Power Unit",
+      "code": "com46",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 80,
+      "id": 82,
+      "name": "Analogue Power Unit",
+      "code": "com47",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 92,
+      "id": 83,
+      "name": "Magnetic Power Unit",
+      "code": "com48",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 75,
+      "id": 84,
+      "name": "Magnetic Switching Box",
+      "code": "com49",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 117,
+      "id": 85,
+      "name": "Phase Switching Box",
+      "code": "com50",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 119,
+      "id": 86,
+      "name": "Polarizing Switching Box",
+      "code": "com51",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 59,
+      "id": 87,
+      "name": "Polarizing Resistor",
+      "code": "com52",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 104,
+      "id": 88,
+      "name": "Tracing Resistor",
+      "code": "com53",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 103,
+      "id": 89,
+      "name": "Hard-mineral Resistor",
+      "code": "com54",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 77,
+      "id": 90,
+      "name": "Aeonic Heater Panel",
+      "code": "com55",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 77,
+      "id": 91,
+      "name": "Energetic Heater Panel",
+      "code": "com56",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 85,
+      "id": 92,
+      "name": "Heater Panel",
+      "code": "com57",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 399,
+      "id": 93,
+      "name": "Correlative Line Filter",
+      "code": "com58",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 683,
+      "id": 106,
+      "name": "Impulse Additional Electronics",
+      "code": "com71",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 821,
+      "id": 107,
+      "name": "Energetic Additional Electronics",
+      "code": "com72",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 610,
+      "id": 109,
+      "name": "Tracing Pressure Panel",
+      "code": "com74",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 713,
+      "id": 110,
+      "name": "Magnetic Pressure Panel",
+      "code": "com75",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 143,
+      "id": 111,
+      "name": "Aeonic Communicator",
+      "code": "com76",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 500,
+      "id": 112,
+      "name": "Impulse Communicator",
+      "code": "com77",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 711,
+      "id": 113,
+      "name": "Subtransfer Communicator",
+      "code": "com78",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 26,
+      "id": 264,
+      "name": "Frame",
+      "code": "mc1",
+      "tier": 1,
+      "size": "S",
+      "type": "units"
+    },
+    {
+      "volume": 141,
+      "id": 50,
+      "name": "Superplastic Stringer",
+      "code": "com15",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 45,
+      "id": 270,
+      "name": "Weapon Missile Element",
+      "code": "mc7",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 83,
+      "id": 271,
+      "name": "Weapon Missile Element",
+      "code": "mc8",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 46,
+      "id": 330,
+      "name": "Afterburner Element",
+      "code": "mc67",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 114,
+      "id": 331,
+      "name": "Afterburner Element",
+      "code": "mc68",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 108,
+      "id": 333,
+      "name": "Hyperjump Element",
+      "code": "mc70",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 147,
+      "id": 334,
+      "name": "Hyperjump Element",
+      "code": "mc71",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 68,
+      "id": 336,
+      "name": "Maneuver Element",
+      "code": "mc73",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 99,
+      "id": 337,
+      "name": "Maneuver Element",
+      "code": "mc74",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 54,
+      "id": 339,
+      "name": "Weapon Wiring",
+      "code": "mc76",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 29,
+      "id": 340,
+      "name": "Shield Wiring",
+      "code": "mc77",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 38,
+      "id": 341,
+      "name": "Armor Wiring",
+      "code": "mc78",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 36,
+      "id": 342,
+      "name": "Cargo Wiring",
+      "code": "mc79",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 52,
+      "id": 343,
+      "name": "Mining Wiring",
+      "code": "mc80",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 36,
+      "id": 344,
+      "name": "Battery Wiring",
+      "code": "mc81",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 39,
+      "id": 345,
+      "name": "Regenerator Wiring",
+      "code": "mc82",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 45,
+      "id": 346,
+      "name": "Booster Wiring",
+      "code": "mc83",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 36,
+      "id": 347,
+      "name": "Radars Wiring",
+      "code": "mc84",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 35,
+      "id": 348,
+      "name": "Cloaker Wiring",
+      "code": "mc85",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 39,
+      "id": 349,
+      "name": "Drone Wiring",
+      "code": "mc86",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 42,
+      "id": 350,
+      "name": "Chip Wiring",
+      "code": "mc87",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 36,
+      "id": 351,
+      "name": "Afterburner Wiring",
+      "code": "mc88",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 39,
+      "id": 352,
+      "name": "Hyperjump Wiring",
+      "code": "mc89",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 32,
+      "id": 353,
+      "name": "Maneuver Wiring",
+      "code": "mc90",
+      "tier": 3,
+      "size": "U",
+      "type": "wiring"
+    },
+    {
+      "volume": 1,
+      "id": 290,
+      "name": "Shield Laser Element",
+      "code": "mc27",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 291,
+      "name": "Shield Rail Element",
+      "code": "mc28",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 292,
+      "name": "Shield Rail Element",
+      "code": "mc29",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 293,
+      "name": "Shield Rail Element",
+      "code": "mc30",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 294,
+      "name": "Shield Nuclear Element",
+      "code": "mc31",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 295,
+      "name": "Shield Nuclear Element",
+      "code": "mc32",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 296,
+      "name": "Shield Nuclear Element",
+      "code": "mc33",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 299,
+      "name": "Armor Element",
+      "code": "mc36",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 302,
+      "name": "Cargo Element",
+      "code": "mc39",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 305,
+      "name": "Mining laser Element",
+      "code": "mc42",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 308,
+      "name": "Mining extractor Element",
+      "code": "mc45",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 311,
+      "name": "Battery Element",
+      "code": "mc48",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 314,
+      "name": "Regenerator Element",
+      "code": "mc51",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 317,
+      "name": "Booster Element",
+      "code": "mc54",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 320,
+      "name": "Radars Element",
+      "code": "mc57",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 323,
+      "name": "Cloaker Element",
+      "code": "mc60",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 326,
+      "name": "Drone Element",
+      "code": "mc63",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 329,
+      "name": "Chip Element",
+      "code": "mc66",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 332,
+      "name": "Afterburner Element",
+      "code": "mc69",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 335,
+      "name": "Hyperjump Element",
+      "code": "mc72",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 1,
+      "id": 338,
+      "name": "Maneuver Element",
+      "code": "mc75",
+      "tier": 3,
+      "size": "L",
+      "type": "elements"
+    },
+    {
+      "volume": 96,
+      "id": 396,
+      "name": "Chip Amplifier",
+      "code": "mc133",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 72,
+      "name": "Electrogenic Chassis",
+      "code": "com37",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 73,
+      "name": "Submaterial Chassis",
+      "code": "com38",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 74,
+      "name": "Hyperplasmic Chassis",
+      "code": "com39",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 75,
+      "name": "Staging Generator",
+      "code": "com40",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 76,
+      "name": "Colloidal Generator",
+      "code": "com41",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 77,
+      "name": "Aquadan Generator",
+      "code": "com42",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 78,
+      "name": "Cybernetic Toxic elements",
+      "code": "com43",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 79,
+      "name": "Hard-mineral Toxic elements",
+      "code": "com44",
+      "tier": 2,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 80,
+      "name": "Crystalline Toxic elements",
+      "code": "com45",
+      "tier": 3,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 1,
+      "id": 117,
+      "name": "Aeonic Condenser",
+      "code": "com82",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 1,
+      "id": 118,
+      "name": "Dispersive Condenser",
+      "code": "com83",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 74,
+      "id": 354,
+      "name": "Artillery Amplifier",
+      "code": "mc91",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 101,
+      "id": 355,
+      "name": "Artillery Amplifier",
+      "code": "mc92",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 356,
+      "name": "Artillery Amplifier",
+      "code": "mc93",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 66,
+      "id": 357,
+      "name": "Missile Amplifier",
+      "code": "mc94",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 105,
+      "id": 358,
+      "name": "Missile Amplifier",
+      "code": "mc95",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 359,
+      "name": "Missile Amplifier",
+      "code": "mc96",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 94,
+      "id": 360,
+      "name": "Laser Amplifier",
+      "code": "mc97",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 116,
+      "id": 361,
+      "name": "Laser Amplifier",
+      "code": "mc98",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 362,
+      "name": "Laser Amplifier",
+      "code": "mc99",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 363,
+      "name": "Rail Amplifier",
+      "code": "mc100",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 364,
+      "name": "Rail Amplifier",
+      "code": "mc101",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 365,
+      "name": "Rail Amplifier",
+      "code": "mc102",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 366,
+      "name": "Nuclear Amplifier",
+      "code": "mc103",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 367,
+      "name": "Nuclear Amplifier",
+      "code": "mc104",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 368,
+      "name": "Nuclear Amplifier",
+      "code": "mc105",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 61,
+      "id": 369,
+      "name": "Armor Amplifier",
+      "code": "mc106",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 150,
+      "id": 370,
+      "name": "Armor Amplifier",
+      "code": "mc107",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 371,
+      "name": "Armor Amplifier",
+      "code": "mc108",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 71,
+      "id": 372,
+      "name": "Cargo Amplifier",
+      "code": "mc109",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 135,
+      "id": 373,
+      "name": "Cargo Amplifier",
+      "code": "mc110",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 374,
+      "name": "Cargo Amplifier",
+      "code": "mc111",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 105,
+      "id": 375,
+      "name": "Mining Amplifier",
+      "code": "mc112",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 125,
+      "id": 376,
+      "name": "Mining Amplifier",
+      "code": "mc113",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 377,
+      "name": "Mining Amplifier",
+      "code": "mc114",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 49,
+      "id": 378,
+      "name": "Battery Amplifier",
+      "code": "mc115",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 90,
+      "id": 379,
+      "name": "Battery Amplifier",
+      "code": "mc116",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 380,
+      "name": "Battery Amplifier",
+      "code": "mc117",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 69,
+      "id": 381,
+      "name": "Regenerator Amplifier",
+      "code": "mc118",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 110,
+      "id": 382,
+      "name": "Regenerator Amplifier",
+      "code": "mc119",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 383,
+      "name": "Regenerator Amplifier",
+      "code": "mc120",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 63,
+      "id": 36,
+      "name": "Pneumatic Side Hatch",
+      "code": "com1",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 59,
+      "id": 45,
+      "name": "Electrogenic Wing",
+      "code": "com10",
+      "tier": 1,
+      "size": "",
+      "type": "structures"
+    },
+    {
+      "volume": 312,
+      "id": 135,
+      "name": "Matrix Stabilizer System",
+      "code": "com100",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 454,
+      "id": 136,
+      "name": "Gyroscopic Stabilizer System",
+      "code": "com101",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 625,
+      "id": 137,
+      "name": "Screening Stabilizer System",
+      "code": "com102",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 180,
+      "id": 138,
+      "name": "Cryogenic Cooling System",
+      "code": "com103",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 438,
+      "id": 139,
+      "name": "Molecular Cooling System",
+      "code": "com104",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 1,
+      "id": 144,
+      "name": "Polarizing Horizon sensors System",
+      "code": "com109",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 1,
+      "id": 145,
+      "name": "Programming Horizon Sensors System",
+      "code": "com110",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 1,
+      "id": 146,
+      "name": "Screening Horizon Sensors System",
+      "code": "com111",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 1,
+      "id": 147,
+      "name": "Analogue Tank Pressurization System",
+      "code": "com112",
+      "tier": 1,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 1,
+      "id": 148,
+      "name": "Tracing Tank Pressurization System",
+      "code": "com113",
+      "tier": 2,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 1,
+      "id": 149,
+      "name": "Impulse Tank pressurization System",
+      "code": "com114",
+      "tier": 3,
+      "size": "",
+      "type": "mechanisms"
+    },
+    {
+      "volume": 1,
+      "id": 114,
+      "name": "Analogue Quantity Panel",
+      "code": "com79",
+      "tier": 1,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 1,
+      "id": 115,
+      "name": "Super-relativistic Quantity Panel",
+      "code": "com80",
+      "tier": 2,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 1,
+      "id": 116,
+      "name": "Cybernetic Quantity Panel",
+      "code": "com81",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 1,
+      "id": 119,
+      "name": "Analogue Condenser",
+      "code": "com84",
+      "tier": 3,
+      "size": "",
+      "type": "electronics"
+    },
+    {
+      "volume": 100,
+      "id": 397,
+      "name": "Chip Amplifier",
+      "code": "mc134",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 398,
+      "name": "Chip Amplifier",
+      "code": "mc135",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 104,
+      "id": 399,
+      "name": "Afterburner Amplifier",
+      "code": "mc136",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 115,
+      "id": 400,
+      "name": "Afterburner Amplifier",
+      "code": "mc137",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 401,
+      "name": "Afterburner Amplifier",
+      "code": "mc138",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 108,
+      "id": 402,
+      "name": "Hyperjump Amplifier",
+      "code": "mc139",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 122,
+      "id": 403,
+      "name": "Hyperjump Amplifier",
+      "code": "mc140",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 404,
+      "name": "Hyperjump Amplifier",
+      "code": "mc141",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 62,
+      "id": 405,
+      "name": "Maneuver Amplifier",
+      "code": "mc142",
+      "tier": 1,
+      "size": "S",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 108,
+      "id": 406,
+      "name": "Maneuver Amplifier",
+      "code": "mc143",
+      "tier": 2,
+      "size": "M",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 1,
+      "id": 407,
+      "name": "Maneuver Amplifier",
+      "code": "mc144",
+      "tier": 3,
+      "size": "L",
+      "type": "amplifiers"
+    },
+    {
+      "volume": 48,
+      "id": 273,
+      "name": "Weapon Laser Element",
+      "code": "mc10",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 53,
+      "id": 265,
+      "name": "Medium Frame",
+      "code": "mc2",
+      "tier": 2,
+      "size": "M",
+      "type": "units"
+    },
+    {
+      "volume": 31,
+      "id": 267,
+      "name": "Weapon Artillery Element",
+      "code": "mc4",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 60,
+      "id": 268,
+      "name": "Weapon Artillery Element",
+      "code": "mc5",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 54,
+      "id": 282,
+      "name": "Shield Artillery Element",
+      "code": "mc19",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 93,
+      "id": 283,
+      "name": "Shield Artillery Element",
+      "code": "mc20",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 55,
+      "id": 285,
+      "name": "Shield Missile Element",
+      "code": "mc22",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 102,
+      "id": 286,
+      "name": "Shield Missile Element",
+      "code": "mc23",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 57,
+      "id": 288,
+      "name": "Shield Laser Element",
+      "code": "mc25",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 93,
+      "id": 289,
+      "name": "Shield Laser Element",
+      "code": "mc26",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 46,
+      "id": 297,
+      "name": "Armor Element",
+      "code": "mc34",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 112,
+      "id": 298,
+      "name": "Armor Element",
+      "code": "mc35",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 135,
+      "id": 300,
+      "name": "Cargo Element",
+      "code": "mc37",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 150,
+      "id": 301,
+      "name": "Cargo Element",
+      "code": "mc38",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 120,
+      "id": 303,
+      "name": "Mining laser Element",
+      "code": "mc40",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 160,
+      "id": 304,
+      "name": "Mining laser Element",
+      "code": "mc41",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 80,
+      "id": 306,
+      "name": "Mining extractor Element",
+      "code": "mc43",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 160,
+      "id": 307,
+      "name": "Mining extractor Element",
+      "code": "mc44",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 59,
+      "id": 309,
+      "name": "Battery Element",
+      "code": "mc46",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 100,
+      "id": 310,
+      "name": "Battery Element",
+      "code": "mc47",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 80,
+      "id": 312,
+      "name": "Regenerator Element",
+      "code": "mc49",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 108,
+      "id": 313,
+      "name": "Regenerator Element",
+      "code": "mc50",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 93,
+      "id": 315,
+      "name": "Booster Element",
+      "code": "mc52",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 116,
+      "id": 316,
+      "name": "Booster Element",
+      "code": "mc53",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 74,
+      "id": 318,
+      "name": "Radars Element",
+      "code": "mc55",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 104,
+      "id": 319,
+      "name": "Radars Element",
+      "code": "mc56",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 75,
+      "id": 321,
+      "name": "Cloaker Element",
+      "code": "mc58",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 90,
+      "id": 322,
+      "name": "Cloaker Element",
+      "code": "mc59",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 59,
+      "id": 324,
+      "name": "Drone Element",
+      "code": "mc61",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 102,
+      "id": 325,
+      "name": "Drone Element",
+      "code": "mc62",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    },
+    {
+      "volume": 68,
+      "id": 327,
+      "name": "Chip Element",
+      "code": "mc64",
+      "tier": 1,
+      "size": "S",
+      "type": "elements"
+    },
+    {
+      "volume": 134,
+      "id": 328,
+      "name": "Chip Element",
+      "code": "mc65",
+      "tier": 2,
+      "size": "M",
+      "type": "elements"
+    }
+  ]
