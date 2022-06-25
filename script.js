@@ -308,7 +308,7 @@ function addComponents() {
   cell16.outerHTML = "<th>Price*1</th>";
   cell17.outerHTML = "<th>Profits/Hour</th>";
 
-  for (let i = 0; i < priceApi.length; i++) {
+  for (let i = 0; i < 190; i++) {
     const idKey = Number(Object.keys(components_req[0])[i]);
     const idResKey1 = Number(
       Object.keys(components_req[0][idKey].Requirements.Resources)[0]
@@ -357,12 +357,14 @@ function addComponents() {
     const findId5 = resources.find(({ id }) => id === idResKey5);
     let input5 = "-";
     if (typeof findId5 !== "undefined") {
+      console.log(i)
       input5 = findId5.code;
       qty5 = Object.values(components_req[0][idKey].Requirements.Resources)[4];
     }
     const findId6 = resources.find(({ id }) => id === idResKey6);
     let input6 = "-";
-    if (findId6) {
+    if (typeof findId6 !== "undefined") {
+      console.log(i)
       input6 = findId6.code;
       qty6 = Object.values(components_req[0][idKey].Requirements.Resources)[5];
     }
