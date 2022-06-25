@@ -181,11 +181,11 @@ async function addRefinery() {
 
     const idNumber = resources.find(({ id }) => id === idKey);
     const res = idNumber;
-    const min1 = Object.values(refinery[0][idKey].Receipt)[0].min;
+    const min1 = Object.values(refinery[0][idKey].Receipt)[0].min * 1.2;
     //const max1 = Object.values(refinery[0][idKey].Receipt)[0].max;
-    const min2 = Object.values(refinery[0][idKey].Receipt)[1].min;
+    const min2 = Object.values(refinery[0][idKey].Receipt)[1].min * 1.2;
     //const max2 = Object.values(refinery[0][idKey].Receipt)[1].max;
-    const min3 = Object.values(refinery[0][idKey].Receipt)[2].min;
+    const min3 = Object.values(refinery[0][idKey].Receipt)[2].min * 1.2;
     //const max3 = Object.values(refinery[0][idKey].Receipt)[2].max;
     const credits = refinery[0][idKey].Requirements.Credits;
     const duration = refinery[0][idKey].Duration / 60;
@@ -201,7 +201,7 @@ async function addRefinery() {
     //let max4 = 0;
     const findId4 = resources.find(({ id }) => id === idResKey4);
     if (typeof findId4 !== "undefined") {
-      min4 = Object.values(refinery[0][idKey].Receipt)[3].min;
+      min4 = Object.values(refinery[0][idKey].Receipt)[3].min * 1.2;
       //max4 = Object.values(refinery[0][idKey].Receipt)[3].max;
       outputPrice4 = priceApi[idResKey4].price;
       output4 = findId4.code;
@@ -237,20 +237,20 @@ async function addRefinery() {
     cols4.innerHTML = duration;
     cols5.innerHTML = `<p style="color:white">${output1}</p>`;
     cols5.style.backgroundColor = findId1.color;
-    cols6.innerHTML = min1 * 1.2;
+    cols6.innerHTML = min1;
     cols7.innerHTML = outputPrice1;
     cols8.innerHTML = `<p style="color:white">${output2}</p>`;
     cols8.style.backgroundColor = findId2.color;
-    cols9.innerHTML = min2 * 1.2;
+    cols9.innerHTML = min2;
     cols10.innerHTML = outputPrice2;
     cols11.innerHTML = `<p style="color:white">${output3}</p>`;
     cols11.style.backgroundColor = findId3.color;
-    cols12.innerHTML = (min3 * 1.2).toFixed(1);
+    cols12.innerHTML = min3.toFixed(1);
     cols13.innerHTML = outputPrice3;
     cols14.innerHTML = `<p style="color:white">${output4}</p>`;
     if (findId4) {
       cols14.style.backgroundColor = findId4.color;
-      cols15.innerHTML = min4 * 1.2;
+      cols15.innerHTML = min4;
       cols16.innerHTML = outputPrice4;
     }
     cols17.innerHTML = (
@@ -267,6 +267,7 @@ async function addRefinery() {
   sortTable("refinery_table", 16);
 }
 addRefinery();
+
 const componentsTable = document.getElementById("components_table");
 function addComponents() {
   componentsTable.innerHTML = "";
