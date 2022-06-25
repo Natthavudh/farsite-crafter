@@ -48,7 +48,9 @@ async function newPrice() {
       obj["quantity"] = resApi.quantity;
       priceApi.push(obj);
       topText.innerHTML =
-        "Loading Price... " + (((i + 1) / resources.length) * 100).toFixed(0) + "%";
+        "Loading Price... " +
+        (((i + 1) / resources.length) * 100).toFixed(0) +
+        "%";
     } else {
       obj.price = 0;
       obj.quantity = 0;
@@ -180,11 +182,11 @@ async function addRefinery() {
     const idNumber = resources.find(({ id }) => id === idKey);
     const res = idNumber;
     const min1 = Object.values(refinery[0][idKey].Receipt)[0].min;
-    const max1 = Object.values(refinery[0][idKey].Receipt)[0].max;
+    //const max1 = Object.values(refinery[0][idKey].Receipt)[0].max;
     const min2 = Object.values(refinery[0][idKey].Receipt)[1].min;
-    const max2 = Object.values(refinery[0][idKey].Receipt)[1].max;
+    //const max2 = Object.values(refinery[0][idKey].Receipt)[1].max;
     const min3 = Object.values(refinery[0][idKey].Receipt)[2].min;
-    const max3 = Object.values(refinery[0][idKey].Receipt)[2].max;
+    //const max3 = Object.values(refinery[0][idKey].Receipt)[2].max;
     const credits = refinery[0][idKey].Requirements.Credits;
     const duration = refinery[0][idKey].Duration / 60;
     const findId1 = resources.find(({ id }) => id === idResKey1);
@@ -196,11 +198,11 @@ async function addRefinery() {
     let output4 = "-";
     let outputPrice4 = 0;
     let min4 = 0;
-    let max4 = 0;
+    //let max4 = 0;
     const findId4 = resources.find(({ id }) => id === idResKey4);
     if (typeof findId4 !== "undefined") {
       min4 = Object.values(refinery[0][idKey].Receipt)[3].min;
-      max4 = Object.values(refinery[0][idKey].Receipt)[3].max;
+      //max4 = Object.values(refinery[0][idKey].Receipt)[3].max;
       outputPrice4 = priceApi[idResKey4].price;
       output4 = findId4.code;
     }
@@ -235,27 +237,27 @@ async function addRefinery() {
     cols4.innerHTML = duration;
     cols5.innerHTML = `<p style="color:white">${output1}</p>`;
     cols5.style.backgroundColor = findId1.color;
-    cols6.innerHTML = min1 + "-" + max1;
+    cols6.innerHTML = min1 * 1.2;
     cols7.innerHTML = outputPrice1;
     cols8.innerHTML = `<p style="color:white">${output2}</p>`;
     cols8.style.backgroundColor = findId2.color;
-    cols9.innerHTML = min2 + "-" + max2;
+    cols9.innerHTML = min2 * 1.2;
     cols10.innerHTML = outputPrice2;
     cols11.innerHTML = `<p style="color:white">${output3}</p>`;
     cols11.style.backgroundColor = findId3.color;
-    cols12.innerHTML = min3 + "-" + max3;
+    cols12.innerHTML = (min3 * 1.2).toFixed(1);
     cols13.innerHTML = outputPrice3;
     cols14.innerHTML = `<p style="color:white">${output4}</p>`;
     if (findId4) {
       cols14.style.backgroundColor = findId4.color;
-      cols15.innerHTML = min4 + "-" + max4;
+      cols15.innerHTML = min4 * 1.2;
       cols16.innerHTML = outputPrice4;
     }
     cols17.innerHTML = (
-      ((((min1 + max1) / 2) * outputPrice1 +
-        ((min2 + max2) / 2) * outputPrice2 +
-        ((min3 + max3) / 2) * outputPrice3 +
-        ((min4 + max4) / 2) * outputPrice4 -
+      ((min1 * outputPrice1 +
+        min2 * outputPrice2 +
+        min3 * outputPrice3 +
+        min4 * outputPrice4 -
         price * 10 -
         credits) /
         duration) *
