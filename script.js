@@ -331,6 +331,7 @@ function addComponents() {
     const idNumber = components.find(({ id }) => id === idKey);
 
     const name = idNumber.name;
+    const size = idNumber.size;
     const qty1 = Object.values(
       components_req[0][idKey].Requirements.Resources
     )[0];
@@ -404,7 +405,7 @@ function addComponents() {
     const cols16 = row.insertCell(15);
     const cols17 = row.insertCell(16);
 
-    cols1.innerHTML = `<p style align="left">${name}</p>`;
+    cols1.innerHTML = `<p style align="left">${name} ${size}</p>`;
     cols2.innerHTML = price;
     cols3.innerHTML = fees;
     cols4.innerHTML = duration;
