@@ -181,11 +181,20 @@ async function addRefinery() {
 
     const idNumber = resources.find(({ id }) => id === idKey);
     const res = idNumber;
-    const min1 = Object.values(refinery[0][idKey].Receipt)[0].min * 1.2;
+    let min1 = Object.values(refinery[0][idKey].Receipt)[0].min * 1.2;
+    if (min1 == 0) {
+      min1 = 0.5;
+    }
     //const max1 = Object.values(refinery[0][idKey].Receipt)[0].max;
-    const min2 = Object.values(refinery[0][idKey].Receipt)[1].min * 1.2;
+    let min2 = Object.values(refinery[0][idKey].Receipt)[1].min * 1.2;
+    if (min2 == 0) {
+      min2 = 0.5;
+    }
     //const max2 = Object.values(refinery[0][idKey].Receipt)[1].max;
-    const min3 = Object.values(refinery[0][idKey].Receipt)[2].min * 1.2;
+    let min3 = Object.values(refinery[0][idKey].Receipt)[2].min * 1.2;
+    if (min3 == 0) {
+      min3 = 0.5;
+    }
     //const max3 = Object.values(refinery[0][idKey].Receipt)[2].max;
     const credits = refinery[0][idKey].Requirements.Credits;
     const duration = refinery[0][idKey].Duration / 60;
@@ -358,14 +367,14 @@ function addComponents() {
     const findId5 = resources.find(({ id }) => id === idResKey5);
     let input5 = "-";
     if (typeof findId5 !== "undefined") {
-      console.log(i)
+      console.log(i);
       input5 = findId5.code;
       qty5 = Object.values(components_req[0][idKey].Requirements.Resources)[4];
     }
     const findId6 = resources.find(({ id }) => id === idResKey6);
     let input6 = "-";
     if (typeof findId6 !== "undefined") {
-      console.log(i)
+      console.log(i);
       input6 = findId6.code;
       qty6 = Object.values(components_req[0][idKey].Requirements.Resources)[5];
     }
@@ -387,6 +396,9 @@ function addComponents() {
     let inputPrice4 = priceApi[idResKey4].price;
 
     const row = componentsTable.insertRow(i + 1);
+    row.style.height = "50px";
+    row.style.border = "1px solid";
+    row.style.margin = "10px";
     const cols1 = row.insertCell(0);
     const cols2 = row.insertCell(1);
     const cols3 = row.insertCell(2);
@@ -409,7 +421,9 @@ function addComponents() {
     cols2.innerHTML = price;
     cols3.innerHTML = fees;
     cols4.innerHTML = duration;
-    cols5.innerHTML = `<p style="color:white" align="center">${input1}*${qty1}</p>`;
+    cols5.innerHTML = `
+    <p style="color:white" align="center">${input1}*${qty1}</p>
+    `;
     cols5.style.backgroundColor = findId1.color;
     cols6.innerHTML = inputPrice1;
     cols7.innerHTML = `<p style="color:white" align="left">${input2}*${qty2}</p>`;
