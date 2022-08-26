@@ -5,39 +5,42 @@ import refinery from "./refinery.json" assert { type: "json" };
 import mining from "./mining.json" assert { type: "json" };
 
 const input = document.getElementById("authorization");
-let authorization = "";
+let authorization = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzI2LCJlbWFpbCI6Ik5hdHRoYXZ1ZGgxOTkwQGhvdG1haWwuY29tIiwiaWF0IjoxNjYxNTM2MTU4LCJleHAiOjE2NjE1Mzk3NTh9.NxHi1_04Wu64bbrnZe9EW9QVVcNmgiamN68IMvKbdNc"
+
 async function getPrice(id) {
-  for (let i = 0; i < resources.length; i++) {
-    const resp = await fetch(
-      "https://farsite.online/api/1.0/market/resources/" + id + "/stat",
-      {
-        method: "GET",
-        headers: {
-          authority: "farsite.online",
-          accept: "application/json, text/plain, */*",
-          "accept-language": "en,vi;q=0.9,th;q=0.8",
-          authorization: "Bearer " + authorization,
-          origin: "https://play.farsite.online",
-          referer: "https://play.farsite.online/",
-          "sec-ch-ua":
-            '" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"',
-          "sec-ch-ua-mobile": "?0",
-          "sec-ch-ua-platform": '"Windows"',
-          "sec-fetch-dest": "empty",
-          "sec-fetch-mode": "cors",
-          "sec-fetch-site": "same-site",
-          "user-agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
-        },
-      }
-    );
-    const respData = await resp.json();
-    const history = respData.history;
-    return history;
-  }
+  const resp = await fetch(
+    "https://farsite.online/api/1.0/market/resources/" + id + "/stat",
+    {
+      method: "GET",
+      headers: {
+        authorization: "Bearer " + authorization,
+      },
+    }
+  );
+  const respData = await resp.json();
+  const history = respData.history;
+  return history;
 }
+
+async function getComponentPrice(id) {
+  const resp = await fetch(
+    "https://farsite.online/api/1.0/market/components/" + id + "/stat",
+    {
+      method: "GET",
+      headers: {
+        authorization: "Bearer " + authorization,
+      },
+    }
+  );
+  const respData = await resp.json();
+  const history = respData.history;
+  return history;
+}
+
 const topText = document.getElementById("topText");
+const topText2 = document.getElementById("topText2");
 let priceApi = [];
+
 async function newPrice() {
   let resApi = await getPrice(0);
   for (let i = 0; i < resources.length; i++) {
@@ -48,7 +51,7 @@ async function newPrice() {
       obj["quantity"] = resApi.quantity;
       priceApi.push(obj);
       topText.innerHTML =
-        "Loading Price... " +
+        "Loading Resources Price... " +
         (((i + 1) / resources.length) * 100).toFixed(0) +
         "%";
     } else {
@@ -58,7 +61,35 @@ async function newPrice() {
     }
   }
 }
+//await newPrice();
+
+let priceApi2 = [];
+async function newPrice2() {
+  let resApi2 = await getComponentPrice(0);
+  for (let i = 0; i < 420; i++) {
+    let obj = {};
+    if (resApi2) {
+      resApi2 = await getComponentPrice(i);
+      obj["price"] = resApi2.price;
+      obj["quantity"] = resApi2.quantity;
+      priceApi2.push(obj);
+      topText2.innerHTML =
+        "Loading Components Price... " +
+        (((i + 1) / 420) * 100).toFixed(0) +
+        "%";
+    } else {
+      obj.price = 0;
+      obj.quantity = 0;
+      priceApi2.push(obj);
+    }
+  }
+}
 await newPrice();
+await newPrice2();
+//await newPrice2();
+console.log(priceApi);
+console.log(priceApi2);
+
 const miningTable = document.getElementById("mining_table");
 async function addMining() {
   miningTable.innerHTML = "";
@@ -367,19 +398,18 @@ function addComponents() {
     const findId5 = resources.find(({ id }) => id === idResKey5);
     let input5 = "-";
     if (typeof findId5 !== "undefined") {
-      console.log(i);
       input5 = findId5.code;
       qty5 = Object.values(components_req[0][idKey].Requirements.Resources)[4];
     }
     const findId6 = resources.find(({ id }) => id === idResKey6);
     let input6 = "-";
     if (typeof findId6 !== "undefined") {
-      console.log(i);
       input6 = findId6.code;
       qty6 = Object.values(components_req[0][idKey].Requirements.Resources)[5];
     }
 
-    let price = 0;
+    const price = priceApi2[idKey].price;
+
     const duration = components_req[0][idKey].Duration / 60;
     const fees = components_req[0][idKey].Requirements.Credits;
     let inputPrice5 = 0;
