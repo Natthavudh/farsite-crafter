@@ -503,8 +503,10 @@ form.addEventListener("submit", (e) => {
     authorization = inputT;
     input.value = "";
     priceApi = [];
+    priceApi2 = [];
     (async () => {
       await newPrice();
+      await newPrice2();
       addMining();
       addRefinery();
       addComponents();
