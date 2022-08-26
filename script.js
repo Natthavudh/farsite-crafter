@@ -5,7 +5,7 @@ import refinery from "./refinery.json" assert { type: "json" };
 import mining from "./mining.json" assert { type: "json" };
 
 const input = document.getElementById("authorization");
-let authorization = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzI2LCJlbWFpbCI6Ik5hdHRoYXZ1ZGgxOTkwQGhvdG1haWwuY29tIiwiaWF0IjoxNjYxNTM2MTU4LCJleHAiOjE2NjE1Mzk3NTh9.NxHi1_04Wu64bbrnZe9EW9QVVcNmgiamN68IMvKbdNc"
+let authorization = "";
 
 async function getPrice(id) {
   const resp = await fetch(
