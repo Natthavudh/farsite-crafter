@@ -5,7 +5,8 @@ import refinery from "./refinery.json" assert { type: "json" };
 import mining from "./mining.json" assert { type: "json" };
 
 const input = document.getElementById("authorization");
-let authorization = "";
+let authorization =
+  "";
 
 async function getPrice(id) {
   const resp = await fetch(
@@ -66,18 +67,21 @@ async function newPrice() {
 let priceApi2 = [];
 async function newPrice2() {
   let resApi2 = await getComponentPrice(0);
-  for (let i = 0; i < 420; i++) {
+  for (let i = 0; i < components.length; i++) {
     let obj = {};
     if (resApi2) {
-      resApi2 = await getComponentPrice(i);
+      let id = components[i].id;
+      resApi2 = await getComponentPrice(id);
+      obj["id"] = components[i].id;
       obj["price"] = resApi2.price;
       obj["quantity"] = resApi2.quantity;
       priceApi2.push(obj);
       topText2.innerHTML =
         "Loading Components Price... " +
-        (((i + 1) / 420) * 100).toFixed(0) +
+        (((i + 1) / components.length) * 100).toFixed(0) +
         "%";
     } else {
+      obj.id = components[i].id;
       obj.price = 0;
       obj.quantity = 0;
       priceApi2.push(obj);
@@ -86,9 +90,11 @@ async function newPrice2() {
 }
 await newPrice();
 await newPrice2();
-//await newPrice2();
-console.log(priceApi);
+await newPrice2();
+//console.log(priceApi);
 console.log(priceApi2);
+console.log(priceApi2[0]);
+//console.log(priceApi2.find((x) => x.id === 387).price);
 
 const miningTable = document.getElementById("mining_table");
 async function addMining() {
@@ -348,56 +354,82 @@ function addComponents() {
   cell16.outerHTML = "<th>Price*1</th>";
   cell17.outerHTML = "<th>Profits/Hour</th>";
 
-  for (let i = 0; i < 190; i++) {
-    const idKey = Number(Object.keys(components_req[0])[i]);
-    const idResKey1 = Number(
-      Object.keys(components_req[0][idKey].Requirements.Resources)[0]
-    );
-    const idResKey2 = Number(
-      Object.keys(components_req[0][idKey].Requirements.Resources)[1]
-    );
-    const idResKey3 = Number(
-      Object.keys(components_req[0][idKey].Requirements.Resources)[2]
-    );
-    const idResKey4 = Number(
-      Object.keys(components_req[0][idKey].Requirements.Resources)[3]
-    );
-    const idResKey5 = Number(
-      Object.keys(components_req[0][idKey].Requirements.Resources)[4]
-    );
-    const idResKey6 = Number(
-      Object.keys(components_req[0][idKey].Requirements.Resources)[5]
-    );
+  for (let i = 0; i < components.length; i++) {
+    const idKey = components[i].id;
+    let idResKey1 = 0;
+    let idResKey2 = 0;
+    let idResKey3 = 0;
+    let idResKey4 = 0;
+    let idResKey5 = 0;
+    let idResKey6 = 0;
+    if (typeof components_req[0][idKey] !== "undefined") {
+      idResKey1 = Number(
+        Object.keys(components_req[0][idKey].Requirements.Resources)[0]
+      );
+
+      idResKey2 = Number(
+        Object.keys(components_req[0][idKey].Requirements.Resources)[1]
+      );
+      idResKey3 = Number(
+        Object.keys(components_req[0][idKey].Requirements.Resources)[2]
+      );
+      idResKey4 = Number(
+        Object.keys(components_req[0][idKey].Requirements.Resources)[3]
+      );
+      idResKey5 = Number(
+        Object.keys(components_req[0][idKey].Requirements.Resources)[4]
+      );
+      idResKey6 = Number(
+        Object.keys(components_req[0][idKey].Requirements.Resources)[5]
+      );
+    }
+    //console.log(idKey)
     const idNumber = components.find(({ id }) => id === idKey);
 
     const name = idNumber.name;
     const size = idNumber.size;
-    const qty1 = Object.values(
-      components_req[0][idKey].Requirements.Resources
-    )[0];
-    const qty2 = Object.values(
-      components_req[0][idKey].Requirements.Resources
-    )[1];
-    const qty3 = Object.values(
-      components_req[0][idKey].Requirements.Resources
-    )[2];
-    const qty4 = Object.values(
-      components_req[0][idKey].Requirements.Resources
-    )[3];
+    let qty1 = 0;
+    let qty2 = 0;
+    let qty3 = 0;
+    let qty4 = 0;
+    if (typeof components_req[0][idKey] !== "undefined") {
+      qty1 = Object.values(components_req[0][idKey].Requirements.Resources)[0];
+      qty2 = Object.values(components_req[0][idKey].Requirements.Resources)[1];
+      qty3 = Object.values(components_req[0][idKey].Requirements.Resources)[2];
+      qty4 = Object.values(components_req[0][idKey].Requirements.Resources)[3];
+    }
     let qty5 = 0;
     let qty6 = 0;
+    let findId1 = 0;
+    let findId2 = 0;
+    let findId3 = 0;
+    let findId4 = 0;
+    let findId5 = 0;
+    let input1 = 0;
+    let input2 = 0;
+    let input3 = 0;
+    let input4 = 0;
+    let duration = 0;
+    let fees = 1;
+    if (typeof resources.find(({ id }) => id === idResKey1) !== "undefined") {
+      findId1 = resources.find(({ id }) => id === idResKey1);
+      input1 = findId1.code;
+      findId2 = resources.find(({ id }) => id === idResKey2);
+      input2 = findId2.code;
+      findId3 = resources.find(({ id }) => id === idResKey3);
+      input3 = findId3.code;
+      findId4 = resources.find(({ id }) => id === idResKey4);
+      input4 = findId4.code;
+      findId5 = resources.find(({ id }) => id === idResKey5);
 
-    const findId1 = resources.find(({ id }) => id === idResKey1);
-    const input1 = findId1.code;
-    const findId2 = resources.find(({ id }) => id === idResKey2);
-    const input2 = findId2.code;
-    const findId3 = resources.find(({ id }) => id === idResKey3);
-    const input3 = findId3.code;
-    const findId4 = resources.find(({ id }) => id === idResKey4);
-    const input4 = findId4.code;
-    const findId5 = resources.find(({ id }) => id === idResKey5);
+      duration = components_req[0][idKey].Duration / 60;
+      fees = components_req[0][idKey].Requirements.Credits;
+    }
     let input5 = "-";
-    if (typeof findId5 !== "undefined") {
+    if (
+      typeof findId5 !== "undefined" &&
+      typeof components_req[0][idKey] !== "undefined"
+    ) {
       input5 = findId5.code;
       qty5 = Object.values(components_req[0][idKey].Requirements.Resources)[4];
     }
@@ -407,11 +439,7 @@ function addComponents() {
       input6 = findId6.code;
       qty6 = Object.values(components_req[0][idKey].Requirements.Resources)[5];
     }
-
-    const price = priceApi2[idKey].price;
-
-    const duration = components_req[0][idKey].Duration / 60;
-    const fees = components_req[0][idKey].Requirements.Credits;
+    const price = priceApi2.find((x) => x.id === idKey).price;
     let inputPrice5 = 0;
     if (findId5) {
       inputPrice5 = priceApi[idResKey5].price;
@@ -464,7 +492,6 @@ function addComponents() {
     cols10.innerHTML = inputPrice3;
     cols11.innerHTML = `<p style="color:white" align="left">${input4}*${qty4}</p>`;
     cols11.style.backgroundColor = findId4.color;
-
     cols12.innerHTML = inputPrice4;
     if (findId5) {
       cols13.innerHTML = `<p style="color:white" align="left">${input5}*${qty5}</p>`;
