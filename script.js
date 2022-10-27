@@ -5,8 +5,7 @@ import refinery from "./refinery.json" assert { type: "json" };
 import mining from "./mining.json" assert { type: "json" };
 
 const input = document.getElementById("authorization");
-let authorization =
-  "";
+let authorization = "";
 
 async function getPrice(id) {
   const resp = await fetch(
@@ -333,26 +332,22 @@ function addComponents() {
   const cell13 = th.insertCell(12);
   const cell14 = th.insertCell(13);
   const cell15 = th.insertCell(14);
-  const cell16 = th.insertCell(15);
-  const cell17 = th.insertCell(16);
 
   cell1.outerHTML = "<th>Name</th>";
   cell2.outerHTML = "<th>Price</th>";
   cell3.outerHTML = "<th>Fees</th>";
   cell4.outerHTML = "<th>Dur/Min</th>";
-  cell5.outerHTML = "<th>Input 1</th>";
-  cell6.outerHTML = "<th>Price*1</th>";
-  cell7.outerHTML = "<th>Input 2</th>";
-  cell8.outerHTML = "<th>Price*1</th>";
-  cell9.outerHTML = "<th>Input 3</th>";
-  cell10.outerHTML = "<th>Price*1</th>";
-  cell11.outerHTML = "<th>Input 4</th>";
-  cell12.outerHTML = "<th>Price*1</th>";
-  cell13.outerHTML = "<th>Input 5</th>";
-  cell14.outerHTML = "<th>Price</th>";
-  cell15.outerHTML = "<th>Input 6</th>";
-  cell16.outerHTML = "<th>Price*1</th>";
-  cell17.outerHTML = "<th>Profits/Hour</th>";
+  cell5.outerHTML = "<th>Input 1&2</th>";
+  cell6.outerHTML = "<th>Qty</th>";
+  cell7.outerHTML = "<th>Price*Qty</th>";
+  cell8.outerHTML = "<th>Input 3&4</th>";
+  cell9.outerHTML = "<th>Qty</th>";
+  cell10.outerHTML = "<th>Price*Qty</th>";
+  cell11.outerHTML = "<th>Input 5&6</th>";
+  cell12.outerHTML = "<th>Qty</th>";
+  cell13.outerHTML = "<th>Price*Qty</th>";
+  cell14.outerHTML = "<th>Cost</th>";
+  cell15.outerHTML = "<th>Profits/Hour</th>";
 
   for (let i = 0; i < components.length; i++) {
     const idKey = components[i].id;
@@ -472,39 +467,48 @@ function addComponents() {
     const cols13 = row.insertCell(12);
     const cols14 = row.insertCell(13);
     const cols15 = row.insertCell(14);
-    const cols16 = row.insertCell(15);
-    const cols17 = row.insertCell(16);
 
     cols1.innerHTML = `<p style align="left">${name} ${size}</p>`;
     cols2.innerHTML = price;
     cols3.innerHTML = fees;
     cols4.innerHTML = duration;
     cols5.innerHTML = `
-    <p style="color:white" align="center">${input1}*${qty1}</p>
+    <p style="color:white" align="center"><p style="background-color:${findId1.color}">${input1}</p><p style="background-color:${findId2.color}">${input2}</p></p>
     `;
-    cols5.style.backgroundColor = findId1.color;
-    cols6.innerHTML = inputPrice1;
-    cols7.innerHTML = `<p style="color:white" align="left">${input2}*${qty2}</p>`;
-    cols7.style.backgroundColor = findId2.color;
-    cols8.innerHTML = inputPrice2;
-    cols9.innerHTML = `<p style="color:white" align="left">${input3}*${qty3}</p>`;
-    cols9.style.backgroundColor = findId3.color;
-    cols10.innerHTML = inputPrice3;
-    cols11.innerHTML = `<p style="color:white" align="left">${input4}*${qty4}</p>`;
-    cols11.style.backgroundColor = findId4.color;
-    cols12.innerHTML = inputPrice4;
+    //cols5.style.backgroundColor = findId1.color;
+    cols6.innerHTML = `${qty1}<br>${qty2}`;
+    cols7.innerHTML = `${inputPrice1 * qty1}<br>${inputPrice2 * qty2}`;
+    //cols7.style.backgroundColor = findId2.color;
+    cols8.innerHTML = `
+    <p style="color:white" align="center"><p style="background-color:${findId3.color}">${input3}</p><p style="background-color:${findId4.color}">${input4}</p></p>
+    `;
+    cols9.innerHTML = `${qty3}<br>${qty4}`;
+    //cols9.style.backgroundColor = findId3.color;
+    cols10.innerHTML = `${inputPrice3 * qty3}<br>${inputPrice4 * qty4}`;
     if (findId5) {
-      cols13.innerHTML = `<p style="color:white" align="left">${input5}*${qty5}</p>`;
-      cols13.style.backgroundColor = findId5.color;
-
-      cols14.innerHTML = inputPrice5;
+      cols11.innerHTML = `
+    <p style="color:white" align="center"><p style="background-color:${findId5.color}">${input5}</p>`;
     }
     if (findId6) {
-      cols15.innerHTML = `<p style="color:white" align="left">${input6}*${qty6}</p>`;
-      cols15.style.backgroundColor = findId6.color;
-      cols16.innerHTML = inputPrice6;
+      cols11.innerHTML = `
+    <p style="color:white" align="center"><p style="background-color:${findId5.color}">${input5}</p><p style="background-color:${findId6.color}">${input6}</p></p>
+    `;
     }
-    cols17.innerHTML = (
+    //cols11.style.backgroundColor = findId4.color;
+    cols12.innerHTML = `${qty5}<br>${qty6}`;
+    cols13.innerHTML = `${inputPrice5 * qty5}<br>${inputPrice6 * qty6}`;
+    //cols13.style.backgroundColor = findId5.color;
+
+    cols14.innerHTML =
+      fees +
+      qty1 * inputPrice1 +
+      qty2 * inputPrice2 +
+      qty3 * inputPrice3 +
+      qty4 * inputPrice4 +
+      qty5 * inputPrice5 +
+      qty6 * inputPrice6;
+
+    cols15.innerHTML = (
       ((price -
         (qty1 * inputPrice1 +
           qty2 * inputPrice2 +
