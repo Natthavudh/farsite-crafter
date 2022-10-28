@@ -521,7 +521,7 @@ function addComponents() {
       60
     ).toFixed(2);
   }
-  sortTable("components_table", 16);
+  sortTable("components_table", 14);
 }
 addComponents();
 
