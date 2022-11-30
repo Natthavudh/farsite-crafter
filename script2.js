@@ -7,6 +7,85 @@ import mining from "./mining.json" assert { type: "json" };
 const input = document.getElementById("authorization");
 let authorization = "";
 
+const topText3 = document.getElementById("topText3");
+
+async function getSeller(id) {
+  const options = {
+    method: "POST",
+    headers: {
+      authority: "farsite.online",
+      accept: "application/json, text/plain, */*",
+      "accept-language": "en,vi;q=0.9,th;q=0.8",
+      authorization: "Bearer " + authorization,
+      "content-type": "application/json;charset=UTF-8",
+      origin: "https://play.farsite.online",
+      referer: "https://play.farsite.online/",
+      "sec-ch-ua":
+        '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": '"Windows"',
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+      "x-request-id": "e42fcb54-29bc-4caa-af90-44580f3da241",
+    },
+    body: `{"filter":{"price":{"min":0,"max":0},"quantity":{"min":0,"max":0}},"orderBy":"price","orderDirection":"asc","originalId":${id},"page":1}`,
+  };
+
+  const resp = await fetch(
+    "https://farsite.online/api/1.0/market/resources",
+    options
+  );
+  const respData = await resp.json();
+  const history = respData.data;
+  return history;
+}
+let underValue = 500000;
+let sellerOrders = [];
+async function sellerValue() {
+  let resApi = await getSeller(0);
+  for (let i = 0; i < resources.length; i++) {
+    let obj = {};
+    let id = resources[i].id;
+
+    if (resApi) {
+      //console.log(resApi[0]);
+      resApi = await getSeller(id);
+      if (resApi.length !== 0) {
+        let totalValue = 0;
+        let quantity = 0;
+        for (let j = 0; j < resApi.length; j++) {
+          //console.log(resApi[j].price * resApi[j].quantity);
+          if (totalValue < underValue) {
+            totalValue += resApi[j].price * resApi[j].quantity;
+            quantity += resApi[j].quantity;
+          }
+        }
+        obj["id"] = resApi[0].originalId;
+        obj["price"] = (totalValue / quantity).toFixed(0);
+        obj["quantity"] = quantity;
+        sellerOrders.push(obj);
+        //console.log(totalValue, quantity);
+      } else {
+        obj.id = resources[i].id;
+        obj.price = 0;
+        obj.quantity = 0;
+        sellerOrders.push(obj);
+      }
+      topText3.innerHTML =
+        "Loading Seller Orders... " +
+        (((i + 1) / resources.length) * 100).toFixed(0) +
+        "%";
+    } else {
+      obj.id = resources[i].id;
+      obj.price = 0;
+      obj.quantity = 0;
+      sellerOrders.push(obj);
+    }
+  }
+}
 async function getPrice(id) {
   const options = {
     method: "POST",
@@ -146,8 +225,9 @@ async function newPrice2() {
 }
 await newPrice();
 await newPrice2();
-
-console.log(priceApi);
+await sellerValue();
+console.log(sellerOrders);
+//console.log(priceApi);
 //console.log(priceApi2);
 //console.log(priceApi2[0]);
 //console.log(priceApi2.find((x) => x.id === 387).price);
@@ -247,6 +327,7 @@ async function addRefinery() {
   const cell15 = th.insertCell(14);
   const cell16 = th.insertCell(15);
   const cell17 = th.insertCell(16);
+  const cell18 = th.insertCell(17);
 
   cell1.outerHTML = "<th>Code</th>";
   cell2.outerHTML = "<th>Price*10</th>";
@@ -264,7 +345,8 @@ async function addRefinery() {
   cell14.outerHTML = "<th>Output 4</th>";
   cell15.outerHTML = "<th>Qty</th>";
   cell16.outerHTML = "<th>Price*1</th>";
-  cell17.outerHTML = "<th>Profits/Hour</th>";
+  cell17.outerHTML = "<th>Cost</th>";
+  cell18.outerHTML = "<th>Profits/Hour</th>";
 
   for (let i = 0; i < 18; i++) {
     const idKey = Number(Object.keys(refinery[0])[i]);
@@ -309,7 +391,7 @@ async function addRefinery() {
       outputPrice4 = priceApi.find(({ id }) => id === idResKey4).price;
       output4 = findId4.code;
     }
-    const price = priceApi.find(({ id }) => id === idKey);
+    const price = sellerOrders.find(({ id }) => id === idKey);
     const outputPrice1 = priceApi.find(({ id }) => id === idResKey1).price;
     const outputPrice2 = priceApi.find(({ id }) => id === idResKey2).price;
     const outputPrice3 = priceApi.find(({ id }) => id === idResKey3).price;
@@ -332,6 +414,7 @@ async function addRefinery() {
     const cols15 = row.insertCell(14);
     const cols16 = row.insertCell(15);
     const cols17 = row.insertCell(16);
+    const cols18 = row.insertCell(17);
 
     cols1.innerHTML = `<p style="color:white">${res.code}</p>`;
     cols1.style.backgroundColor = res.color;
@@ -356,7 +439,8 @@ async function addRefinery() {
       cols15.innerHTML = min4;
       cols16.innerHTML = outputPrice4;
     }
-    cols17.innerHTML = (
+    cols17.innerHTML = price.price * 10 + credits;
+    cols18.innerHTML = (
       ((min1 * outputPrice1 +
         min2 * outputPrice2 +
         min3 * outputPrice3 +
@@ -367,7 +451,7 @@ async function addRefinery() {
       60
     ).toFixed(2);
   }
-  sortTable("refinery_table", 16);
+  sortTable("refinery_table", 17);
 }
 addRefinery();
 
@@ -495,27 +579,27 @@ function addComponents() {
     const price = priceApi2.find(({ id }) => id === idKey).price;
     let inputPrice5 = 0;
     if (findId5) {
-      inputPrice5 = priceApi.find(({ id }) => id === idResKey5).price;
+      inputPrice5 = sellerOrders.find(({ id }) => id === idResKey5).price;
     }
     let inputPrice6 = 0;
     if (findId6) {
-      inputPrice6 = priceApi.find(({ id }) => id === idResKey6).price;
+      inputPrice6 = sellerOrders.find(({ id }) => id === idResKey6).price;
     }
     let inputPrice1 = 0;
     if (findId1) {
-      inputPrice1 = priceApi.find(({ id }) => id === idResKey1).price;
+      inputPrice1 = sellerOrders.find(({ id }) => id === idResKey1).price;
     }
     let inputPrice2 = 0;
     if (findId2) {
-      inputPrice2 = priceApi.find(({ id }) => id === idResKey2).price;
+      inputPrice2 = sellerOrders.find(({ id }) => id === idResKey2).price;
     }
     let inputPrice3 = 0;
     if (findId3) {
-      inputPrice3 = priceApi.find(({ id }) => id === idResKey3).price;
+      inputPrice3 = sellerOrders.find(({ id }) => id === idResKey3).price;
     }
     let inputPrice4 = 0;
     if (findId4) {
-      inputPrice4 = priceApi.find(({ id }) => id === idResKey4).price;
+      inputPrice4 = sellerOrders.find(({ id }) => id === idResKey4).price;
     }
     const row = componentsTable.insertRow(i + 1);
     row.style.height = "50px";
@@ -604,9 +688,13 @@ form.addEventListener("submit", (e) => {
     input.value = "";
     priceApi = [];
     priceApi2 = [];
+    sellerOrders = [];
+
     (async () => {
       await newPrice();
       await newPrice2();
+      await sellerValue();
+      console.log(sellerOrders);
       addMining();
       addRefinery();
       addComponents();
