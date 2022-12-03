@@ -42,7 +42,7 @@ async function getSeller(id) {
   const history = respData.data;
   return history;
 }
-let underValue = 500000;
+let underValue = 200000;
 let sellerOrders = [];
 async function sellerValue() {
   let resApi = await getSeller(0);
@@ -156,6 +156,7 @@ async function getComponentPrice(id) {
 
 const topText = document.getElementById("topText");
 const topText2 = document.getElementById("topText2");
+
 let priceApi = [];
 
 async function newPrice() {
@@ -168,10 +169,21 @@ async function newPrice() {
       //console.log(resApi[0]);
       resApi = await getPrice(id);
       if (resApi.length !== 0) {
+        let higherPrice = 0;
+        let quantity = 0;
+
+        for (let j = 0; j < resApi.length; j++) {
+          //console.log(resApi[j].price * resApi[j].quantity);
+          if (resApi[j].price > higherPrice) {
+            higherPrice = resApi[j].price;
+            quantity = resApi[j].quantity;
+          }
+        }
         obj["id"] = resApi[0].originalId;
-        obj["price"] = resApi[0].price;
-        obj["quantity"] = resApi[0].quantity;
+        obj["price"] = higherPrice;
+        obj["quantity"] = quantity;
         priceApi.push(obj);
+        //console.log(higherPrice)
       } else {
         obj.id = resources[i].id;
         obj.price = 0;
@@ -190,8 +202,7 @@ async function newPrice() {
     }
   }
 }
-//await newPrice();
-
+//console.log(priceApi);
 let priceApi2 = [];
 async function newPrice2() {
   let resApi = await getComponentPrice(0);
@@ -226,7 +237,7 @@ async function newPrice2() {
 await newPrice();
 await newPrice2();
 await sellerValue();
-console.log(sellerOrders);
+//console.log(sellerOrders);
 //console.log(priceApi);
 //console.log(priceApi2);
 //console.log(priceApi2[0]);
