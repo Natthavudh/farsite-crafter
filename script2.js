@@ -42,7 +42,7 @@ async function getSeller(id) {
   const history = respData.data;
   return history;
 }
-let underValue = 200000;
+let underValue = 100000;
 let sellerOrders = [];
 async function sellerValue() {
   let resApi = await getSeller(0);
